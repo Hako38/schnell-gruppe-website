@@ -1,0 +1,27 @@
+{
+  "meta": { "version": "0.10.0", "status": "review", "verifiedAt": "2026-08-24", "source": "https://schnell-gruppe.de/kontakt/" },
+  "recipient": "info@schnell-gruppe.de",
+  "topics": [
+    { "id": "transporte", "label": "Transporte" }, { "id": "abbruch", "label": "Bagger- und Abbruch" }, { "id": "container", "label": "Container und Entsorgung" }, { "id": "mietgeraete", "label": "Mietgeräte" }, { "id": "schuettgueter", "label": "Schüttgüter" }, { "id": "frischbeton", "label": "Frischbeton" }, { "id": "kehrsaugfahrzeuge", "label": "Kehrsaugfahrzeuge" }, { "id": "winterdienst", "label": "Winterdienst" }, { "id": "sonstiges", "label": "Sonstiges" }
+  ],
+  "fields": [
+    { "id": "firstName", "label": "Vorname", "type": "text", "required": true, "dbColumn": "first_name" },
+    { "id": "lastName", "label": "Name", "type": "text", "required": true, "dbColumn": "last_name" },
+    { "id": "email", "label": "E-Mail-Adresse", "type": "email", "required": true, "dbColumn": "email" },
+    { "id": "phone", "label": "Telefon", "type": "tel", "required": false, "dbColumn": "phone" },
+    { "id": "topic", "label": "Betreff", "type": "select", "required": false, "dbColumn": "topic" },
+    { "id": "location", "label": "Bevorzugter Standort", "type": "select", "required": false, "dbColumn": "location" },
+    { "id": "message", "label": "Ihre Nachricht", "type": "textarea", "required": true, "dbColumn": "message" }
+  ],
+  "submission": {
+    "currentTransport": "mailto-fallback",
+    "futureEndpoint": "/api/inquiries",
+    "databaseTable": "inquiries",
+    "storageRule": "Keine Anfragedaten im Browser speichern; bei Backend-Anbindung serverseitige Validierung, Spam-Schutz und Löschkonzept ergänzen."
+  },
+  "legal": [
+    { "slug": "impressum", "title": "Impressum", "status": "pending-legal-review", "source": "https://schnell-gruppe.de/impressum/" },
+    { "slug": "datenschutz", "title": "Datenschutz", "status": "pending-legal-review", "source": "https://schnell-gruppe.de/datenschutz/" },
+    { "slug": "agb", "title": "AGB", "status": "pending-legal-review", "source": "https://schnell-gruppe.de/agb/" }
+  ]
+}

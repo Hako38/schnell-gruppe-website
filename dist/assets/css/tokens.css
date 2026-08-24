@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/barlow-condensed-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/barlow-condensed-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/barlow-condensed-800.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../fonts/inter-latin.woff2") format("woff2");
+}
+
+:root {
+  --sg-yellow: #efd522;
+  --sg-yellow-hover: #f7df2b;
+  --sg-ink: #0c0d0e;
+  --sg-ink-soft: #1b1d1f;
+  --sg-paper: #f5f3ed;
+  --sg-white: #ffffff;
+  --sg-rental: #289f78;
+  --sg-container: #941d1b;
+  --sg-concrete-100: #f5f3ed;
+  --sg-concrete-200: #ddd9cf;
+  --sg-concrete-400: #aaa59c;
+  --sg-concrete-600: #68645e;
+  --sg-concrete-800: #252628;
+  --sg-font-display: "Barlow Condensed", "Arial Narrow", Arial, sans-serif;
+  --sg-font-body: "Inter", Arial, sans-serif;
+  --sg-content: 90rem;
+  --sg-text: 68ch;
+  --sg-gutter: clamp(1.125rem, 4vw, 4rem);
+  --sg-section: clamp(4.5rem, 9vw, 9rem);
+  --sg-fast: 140ms;
+  --sg-base: 220ms;
+  --sg-slow: 520ms;
+  --sg-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+}

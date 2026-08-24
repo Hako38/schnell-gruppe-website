@@ -1,0 +1,329 @@
+{
+  "meta": {
+    "version": "0.10.0",
+    "status": "review",
+    "verifiedAt": "2026-08-24",
+    "source": "https://schnell-gruppe.de/downloads/",
+    "hostingNote": "Alle Dateien sind als externe Bestandsdokumente referenziert und vor dem Produktivgang lokal zu prüfen bzw. zu übernehmen."
+  },
+  "categories": [
+    {
+      "id": "allgemein",
+      "label": "Allgemein"
+    },
+    {
+      "id": "abfall",
+      "label": "Abfallbeschreibungen"
+    },
+    {
+      "id": "schuettgut",
+      "label": "Schüttgutbeschreibungen"
+    }
+  ],
+  "documents": [
+    {
+      "id": "preisliste",
+      "title": "Aktuelle Preisliste",
+      "categoryId": "allgemein",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2025/05/Preisliste_2025.05.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "dsgvo-einwilligung",
+      "title": "Formular Download DSGVO",
+      "categoryId": "allgemein",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/Einwilligung-DSGVO-Formular.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "herkunft-bodenaushub",
+      "title": "Herkunftserklärung für Bodenaushub",
+      "categoryId": "allgemein",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/Herkunftserklaerung_fuer_Bodenaushub.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "kontoeroeffnung",
+      "title": "Formular Kontoeröffnung",
+      "categoryId": "allgemein",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/Kontoeroeffnung_Formular.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "regelplan",
+      "title": "Regelplan B I / 1",
+      "categoryId": "allgemein",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/Regelplan_B1-1.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "sepa",
+      "title": "SEPA-Lastschriftmandat Formular",
+      "categoryId": "allgemein",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/SEPA-Lastschriftmandat-Formular.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "mineralwolle",
+      "title": "Mineralwolle",
+      "categoryId": "abfall",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210305_Mineralwolle-Definition.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "garten-parkabfaelle",
+      "title": "Garten- und Parkabfälle",
+      "categoryId": "abfall",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210305_Garten-und-Parkabfälle-Definition.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "erdaushub",
+      "title": "Erdaushub",
+      "categoryId": "abfall",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210305_Erdaushub-Definition.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "flachglas",
+      "title": "Flachglas",
+      "categoryId": "abfall",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210305_Flachglas-Definition.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "altholz-a1",
+      "title": "Altholz A I",
+      "categoryId": "abfall",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210305_Altholz-A-I-Definition.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "altholz-a23",
+      "title": "Altholz A II / III",
+      "categoryId": "abfall",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210305_Altholz-A-II-und-III-Definition.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "altholz-a4",
+      "title": "Altholz A IV",
+      "categoryId": "abfall",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210305_Altholz-A-IV-Definition.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "gemischte-bauabfaelle",
+      "title": "Gemischte Bau- und Abbruchabfälle",
+      "categoryId": "abfall",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210305_gemischte-Bau-und-Abbruchabfälle-Definition.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "bauschutt",
+      "title": "Bauschutt, sortenrein und Bauschutt-Gemisch",
+      "categoryId": "abfall",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210305_Bauschutt-sortenrein-und-Bauschutt-Gemisch-Definition.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "leichtbaustoffe",
+      "title": "Leichtbaustoffe",
+      "categoryId": "abfall",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210305_Leichtbaustoffe-Definition.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "bauschutt-boden",
+      "title": "Bauschutt-Boden-Gemisch",
+      "categoryId": "abfall",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210305_Bauschutt-Boden-Gemisch-Definition.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "mischschrott",
+      "title": "Mischschrott",
+      "categoryId": "abfall",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210305_Mischschrott-Definition.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "beton-sortenrein",
+      "title": "Beton, sortenrein",
+      "categoryId": "abfall",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210305_Beton-sortenrein-Definition.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "beton-bewehrt",
+      "title": "Beton, bewehrt und Übergröße",
+      "categoryId": "abfall",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210305_Beton-bewehrt-und-Übergrösse-Definition.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "abfall-schuettgewichte",
+      "title": "Abfall-Schüttgewichte",
+      "categoryId": "abfall",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210310_Abfall-Schüttgewichte.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "rc-beton",
+      "title": "RC-Beton-Gemisch 0/32 und 0/45",
+      "categoryId": "schuettgut",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210310_RC-Beton-Gemisch-0-32-–-0-45-Produktinformation.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "findlinge",
+      "title": "Findlinge und Felsen",
+      "categoryId": "schuettgut",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210310_Findlinge-Felsen-Produktinformation.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "basalt-splitt",
+      "title": "Basalt-Splitt 16/32",
+      "categoryId": "schuettgut",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210309_Basalt-Splitt-16-32-Produktinformation.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "quarzit",
+      "title": "Quarzit-Bruchsteine 90-250",
+      "categoryId": "schuettgut",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210310_Quarzit-Bruchsteine-90-250-Produktinformation.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "gabionen",
+      "title": "Gabionensteine",
+      "categoryId": "schuettgut",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210310_Gabionensteine-32-80-Produktinformation.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "rc-mineral",
+      "title": "RC-Mineralgemisch 0/32 und 0/45 (geprüft)",
+      "categoryId": "schuettgut",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210310_RC-Mineralgemisch-0-32-–-0-45-geprüft-Produktinformation.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "rc-grobschotter",
+      "title": "RC-Grobschotter 40/70",
+      "categoryId": "schuettgut",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210310_RC-Grobschotter-40-70-Produktinformation.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "rc-sand",
+      "title": "RC-Sand 0/8",
+      "categoryId": "schuettgut",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210310_RC-Sand-0-8-Produktinformation.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "schotter",
+      "title": "Schotter 0/32 und 0/45 FSS (Frostschutz)",
+      "categoryId": "schuettgut",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210309_Schotter-0-32-oder-0-45-FSS-Frostschutz-Produktinformation.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "splitt",
+      "title": "Splitt 2/5 (Pflastersplitt)",
+      "categoryId": "schuettgut",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210309_Splitt-2-5_Pflastersplitt-Produktinformation.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "basalt-schotter",
+      "title": "Basalt-Schotter 32/56",
+      "categoryId": "schuettgut",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210309_Basalt-Schotter-32-56-Produktinformation.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "rindenmulch",
+      "title": "Rindenmulch 0/20",
+      "categoryId": "schuettgut",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210309_Rindenmulch-0-20-Produktinformation.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "rheinsand",
+      "title": "Rheinsand gewaschen 0/2",
+      "categoryId": "schuettgut",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210309_Rheinsand-gew.-0-2-Produktinformation.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "mutterboden",
+      "title": "Mutterboden, gesiebt",
+      "categoryId": "schuettgut",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210309_Mutterboden-gesiebt-Produktinformation.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "kies-sand",
+      "title": "Kies-Sand-Gemisch 0/16",
+      "categoryId": "schuettgut",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210309_Kies-Sand-Gemisch-0-16-Produktinformation.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "kies-rhein",
+      "title": "Kies Rhein Körnung 16/32",
+      "categoryId": "schuettgut",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210309_Kies_Rhein-Körnung-16-32-Produktinformation.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    },
+    {
+      "id": "fuellsand",
+      "title": "Füllsand (Grubensand)",
+      "categoryId": "schuettgut",
+      "url": "https://schnell-gruppe.de/wp-content/uploads/2021/05/210309_Füllsand-Grubensand-Produktinformation.pdf",
+      "type": "PDF",
+      "status": "external-legacy"
+    }
+  ]
+}

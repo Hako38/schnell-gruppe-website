@@ -1,0 +1,15 @@
+{
+  "name": "schnell-gruppe-website",
+  "version": "0.6.0",
+  "private": true,
+  "type": "module",
+  "description": "Codebasierte Website der Schnell Gruppe ohne CMS oder Frontend-Framework.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "check": "node scripts/validate.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

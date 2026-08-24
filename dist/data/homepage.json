@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "language": "de",
+    "title": "Schnell Gruppe | Erdbau, Abbruch, Transport & Vermietung",
+    "description": "Schnell Gruppe: Erdbau, Abbruch, Entsorgung, Transport, Mietgeräte und Recycling an vier regionalen Standorten.",
+    "canonical": "https://schnell-gruppe.de/",
+    "status": "review"
+  },
+  "company": {
+    "name": "Schnell Gruppe",
+    "legalName": "Schnell Gruppe",
+    "phone": "06725 300630",
+    "phoneHref": "+496725300630",
+    "email": "vermietung@schnell-gruppe.de",
+    "address": "Gaulsheimer Str. 18, 55437 Ockenheim"
+  },
+  "navigation": [
+    {
+      "label": "Leistungen",
+      "href": "#leistungen"
+    },
+    {
+      "label": "Mietpark",
+      "href": "#mietpark"
+    },
+    {
+      "label": "Standorte",
+      "href": "#standorte"
+    },
+    {
+      "label": "Unternehmen",
+      "href": "#unternehmen"
+    },
+    {
+      "label": "Karriere",
+      "href": "/stellenangebote/"
+    },
+    {
+      "label": "Downloads",
+      "href": "/downloads/"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/kontakt/"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Erdbau · Abbruch · Transport",
+    "headline": "Bauen. Bewegen. Recyceln.",
+    "text": "Von Erdarbeiten und Abbruch über Container, Schüttgüter und Transporte bis zum Mietpark: Wir bündeln die Leistungen, die Ihr Projekt voranbringen.",
+    "image": "assets/images/hero-startseite.jpg",
+    "imageAlt": "Kompaktlader der Schnell Gruppe bei Erdarbeiten",
+    "primaryCta": {
+      "label": "Projekt anfragen",
+      "href": "/kontakt/?quelle=startseite"
+    },
+    "secondaryCta": {
+      "label": "Leistungen entdecken",
+      "href": "#leistungen"
+    }
+  },
+  "facts": [
+    {
+      "value": "11",
+      "label": "Leistungsbereiche",
+      "sourceStatus": "verified-inventory"
+    },
+    {
+      "value": "4",
+      "label": "regionale Standorte",
+      "sourceStatus": "verified-inventory"
+    },
+    {
+      "value": "1",
+      "label": "Gruppe für Bau, Miete & Recycling",
+      "sourceStatus": "editorial"
+    }
+  ],
+  "intro": {
+    "eyebrow": "Ein Partner. Viele Möglichkeiten.",
+    "headline": "Alles, was auf der Baustelle zählt.",
+    "text": "Kurze Wege, eigene Maschinen und abgestimmte Fachbereiche: Die Schnell Gruppe verbindet Bauleistungen, Logistik, Vermietung und Kreislaufwirtschaft in einem regionalen Netzwerk."
+  },
+  "featuredServices": [
+    {
+      "slug": "erdbau-entwaesserung",
+      "label": "Bau & Rückbau",
+      "title": "Erdbau & Entwässerung",
+      "text": "Erdbewegung, Aushub und Entwässerungsarbeiten für private, gewerbliche und öffentliche Vorhaben.",
+      "href": "/leistungen/erdbau-entwaesserung/",
+      "image": "assets/images/leistung-erdbau.jpg",
+      "imageAlt": "Zwei Bagger der Schnell Gruppe bei Erdarbeiten",
+      "imageWidth": 932,
+      "imageHeight": 1400,
+      "accent": "yellow"
+    },
+    {
+      "slug": "containerdienst-entsorgung",
+      "label": "Entsorgung & Recycling",
+      "title": "Container & Wertstoffhof",
+      "text": "Containerdienst, fachgerechte Entsorgung und regionale Annahmestellen für unterschiedliche Materialströme.",
+      "href": "/leistungen/containerdienst-entsorgung/",
+      "image": "assets/images/leistung-recycling.jpg",
+      "imageAlt": "Planierraupe auf dem Betriebsgelände der Schnell Gruppe",
+      "imageWidth": 1400,
+      "imageHeight": 875,
+      "accent": "red"
+    },
+    {
+      "slug": "baumaschinen-baugeraetevermietung",
+      "label": "Maschinen & Geräte",
+      "title": "Mietpark",
+      "text": "Baumaschinen und Baugeräte für professionelle Einsätze und private Projekte – passend zum Vorhaben.",
+      "href": "/mietpark/",
+      "image": "assets/images/leistung-mietpark.jpg",
+      "imageAlt": "Gelbe Walze aus dem Mietpark der Schnell Gruppe",
+      "imageWidth": 1400,
+      "imageHeight": 875,
+      "accent": "green"
+    }
+  ],
+  "serviceGroups": [
+    {
+      "label": "Bau & Rückbau",
+      "items": [
+        "Abbruch & Entsorgung",
+        "Erdbau & Entwässerung",
+        "Garten & Landschaftsbau"
+      ]
+    },
+    {
+      "label": "Entsorgung & Recycling",
+      "items": [
+        "Containerdienst & Wertstoffhof",
+        "Schüttgüter & Recyclingbaustoffe"
+      ]
+    },
+    {
+      "label": "Maschinen & Geräte",
+      "items": [
+        "Baumaschinen & Baugerätevermietung",
+        "Kehrmaschine",
+        "Sanieren & Renovieren",
+        "Gartenwelt"
+      ]
+    },
+    {
+      "label": "Transport & Saison",
+      "items": [
+        "Transportieren",
+        "Winterdienst"
+      ]
+    }
+  ],
+  "recycling": {
+    "eyebrow": "Ressourcen im Kreislauf",
+    "headline": "Aus Rückbau wird neuer Baustoff.",
+    "text": "An unseren Recyclingstandorten nehmen wir mineralische Materialien an und führen geeignete Stoffe wieder in den Baustoffkreislauf zurück. Das verkürzt Wege und schont natürliche Ressourcen.",
+    "cta": {
+      "label": "Recycling & Schüttgüter",
+      "href": "/unternehmen/nachhaltigkeit-recycling/"
+    },
+    "image": "assets/images/leistung-recycling.jpg",
+    "imageAlt": "Baumaschine auf mineralischem Recyclingmaterial"
+  },
+  "locations": [
+    {
+      "slug": "ockenheim",
+      "name": "Ockenheim",
+      "address": "Gaulsheimer Str. 18, 55437 Ockenheim",
+      "functions": "Verwaltung · Mietcenter · Containerdienst · Wertstoffhof",
+      "phone": "06725 300630",
+      "href": "/standorte/ockenheim/"
+    },
+    {
+      "slug": "gensingen",
+      "name": "Gensingen",
+      "address": "Binger Str. 29, 55457 Gensingen",
+      "functions": "Mietcenter · Am Globus-Kreisel",
+      "phone": "06725 300650",
+      "href": "/standorte/gensingen/"
+    },
+    {
+      "slug": "ingelheim",
+      "name": "Ingelheim",
+      "address": "Am Schützenhaus (L 428), 55218 Ingelheim",
+      "functions": "Recyclinganlage · Schüttgüter",
+      "phone": null,
+      "href": "/standorte/ingelheim/"
+    },
+    {
+      "slug": "bad-kreuznach",
+      "name": "Bad Kreuznach",
+      "address": "Am Kehrenberg (Kuhberg), 55543 Bad Kreuznach",
+      "functions": "Recyclinganlage · Schüttgüter",
+      "phone": null,
+      "href": "/standorte/bad-kreuznach/"
+    }
+  ],
+  "closingCta": {
+    "eyebrow": "Ihr Projekt. Unser nächster Schritt.",
+    "headline": "Sagen Sie uns, was bewegt werden muss.",
+    "text": "Wir leiten Ihre Anfrage direkt an den passenden Fachbereich weiter.",
+    "cta": {
+      "label": "Angebot anfragen",
+      "href": "/kontakt/?quelle=abschluss"
+    }
+  }
+}

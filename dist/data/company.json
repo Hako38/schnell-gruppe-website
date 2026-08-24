@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "version": "0.9.0",
+    "status": "review",
+    "verifiedAt": "2026-08-24",
+    "sources": [
+      "https://schnell-gruppe.de/",
+      "https://schnell-gruppe.de/leistungen/containerdienst-entsorgung/",
+      "https://schnell-gruppe.de/wp-content/uploads/2021/05/210310_RC-Sand-0-8-Produktinformation.pdf",
+      "https://schnell-gruppe.de/wp-content/uploads/2021/05/210310_RC-Beton-Gemisch-0-32-%E2%80%93-0-45-Produktinformation.pdf"
+    ]
+  },
+  "profile": {
+    "founded": 1988,
+    "region": "Rhein-Main-Nahe-Gebiet",
+    "headline": "Seit 1988 bewegt die Schnell Gruppe Projekte und Materialien.",
+    "lead": "Aus einem regionalen Bauunternehmen ist ein breit aufgestellter Verbund für Erdbau, Abbruch, Transport, Vermietung, Entsorgung und Recycling gewachsen.",
+    "body": [
+      "Die Schnell Gruppe verbindet Bauleistungen, eigene Logistik, Miettechnik und regionale Annahme- und Recyclingstandorte. Dadurch greifen die einzelnen Fachbereiche direkt ineinander.",
+      "Private, gewerbliche und kommunale Auftraggeber erhalten von der Erdbewegung über Container und Transporte bis zur Materialaufbereitung abgestimmte Leistungen aus einer Hand."
+    ],
+    "facts": [
+      {
+        "value": "1988",
+        "label": "gegründet",
+        "sourceStatus": "verified"
+      },
+      {
+        "value": "4",
+        "label": "regionale Standorte",
+        "sourceStatus": "verified"
+      },
+      {
+        "value": "11",
+        "label": "Leistungsbereiche",
+        "sourceStatus": "verified-inventory"
+      }
+    ],
+    "principles": [
+      {
+        "title": "Alles aus einer Hand",
+        "text": "Bau, Logistik, Entsorgung, Vermietung und Materialkreisläufe werden innerhalb der Gruppe abgestimmt."
+      },
+      {
+        "title": "Regional organisiert",
+        "text": "Vier Standorte schaffen kurze Wege zu Baustellen, Miettechnik, Schüttgütern und Annahmestellen."
+      },
+      {
+        "title": "Praktisch lösungsorientiert",
+        "text": "Eigene Maschinen und spezialisierte Fachbereiche ermöglichen passende Lösungen für unterschiedlich große Vorhaben."
+      }
+    ]
+  },
+  "sustainability": {
+    "headline": "Mineralische Materialien im Kreislauf halten.",
+    "lead": "Geeigneter Betonaufbruch und mineralischer Bauschutt werden angenommen, aufbereitet und als Recyclingbaustoffe erneut eingesetzt.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Annehmen",
+        "text": "Mineralische Materialien werden an den vorgesehenen Standorten kontrolliert angenommen."
+      },
+      {
+        "number": "02",
+        "title": "Aufbereiten",
+        "text": "Das Material wird gebrochen, gesiebt und für definierte Körnungen aufbereitet."
+      },
+      {
+        "number": "03",
+        "title": "Prüfen",
+        "text": "Ausgewählte Recyclingprodukte werden durch externe Institute überwacht oder geprüft."
+      },
+      {
+        "number": "04",
+        "title": "Wieder einsetzen",
+        "text": "Die aufbereiteten Baustoffe kommen beispielsweise im Straßen-, Leitungs- und Erdbau wieder zum Einsatz."
+      }
+    ],
+    "products": [
+      {
+        "title": "RC-Beton-Gemisch",
+        "use": "Frostschutzschichten für Straßen, Plätze und Wege",
+        "sourceStatus": "verified"
+      },
+      {
+        "title": "RC-Mineralgemisch",
+        "use": "Verfüllung, Hinterfüllung sowie Erd- und Landschaftsbau",
+        "sourceStatus": "verified"
+      },
+      {
+        "title": "RC-Sand",
+        "use": "Abdeck- und Füllsand",
+        "sourceStatus": "verified"
+      }
+    ],
+    "locations": [
+      "Ingelheim",
+      "Bad Kreuznach"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "meta": { "version": "0.11.0", "status": "review", "type": "permanent" },
+  "redirects": [
+    { "from": "/anfahrt/", "to": "/standorte/", "status": 301 },
+    { "from": "/oeffnungszeiten/", "to": "/standorte/", "status": 301 },
+    { "from": "/shop/", "to": "/mietpark/", "status": 301 },
+    { "from": "/shop-construction/", "to": "/mietpark/", "status": 301 },
+    { "from": "/stellenangebote/", "to": "/karriere/", "status": 301 },
+    { "from": "/stellenangebote/teamleiter-disposition/", "to": "/karriere/teamleiter-disposition/", "status": 301 },
+    { "from": "/stellenangebote/bauleiter-kalkulator-m-w-d/", "to": "/karriere/bauleiter-kalkulator/", "status": 301 }
+  ]
+}

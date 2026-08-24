@@ -1,0 +1,525 @@
+{
+  "meta": {
+    "version": "0.7.0",
+    "status": "review",
+    "source": "https://schnell-gruppe.de/leistungen/",
+    "count": 11
+  },
+  "groups": [
+    {
+      "id": "bau-rueckbau",
+      "label": "Bau & Rückbau",
+      "description": "Von der Vorbereitung über Erdarbeiten bis zum kontrollierten Rückbau."
+    },
+    {
+      "id": "entsorgung-recycling",
+      "label": "Entsorgung & Recycling",
+      "description": "Materialströme sicher erfassen, verwerten und wieder in den Kreislauf bringen."
+    },
+    {
+      "id": "maschinen-geraete",
+      "label": "Maschinen & Geräte",
+      "description": "Passende Maschinen, Werkzeuge und Ausstattung für Bau, Sanierung und Garten."
+    },
+    {
+      "id": "transport-saison",
+      "label": "Transport & Saison",
+      "description": "Flexible Logistik und zuverlässige Leistungen für besondere Einsatzzeiten."
+    }
+  ],
+  "services": [
+    {
+      "id": "abbruch-entsorgung",
+      "slug": "abbruch-entsorgung",
+      "groupId": "bau-rueckbau",
+      "title": "Abbruch & Entsorgung",
+      "shortTitle": "Abbruch",
+      "eyebrow": "Bau & Rückbau",
+      "summary": "Kontrollierter Rückbau, Schadstoffsanierung und sichere Entsorgungswege aus einer Hand.",
+      "lead": "Von Wohngebäuden bis zu Gewerbe- und Industrieobjekten begleiten wir Abbruch- und Sanierungsmaßnahmen mit eigener Technik, Logistik und abgestimmten Entsorgungswegen.",
+      "body": [
+        "Das Leistungsspektrum reicht vom klassischen Gebäudeabbruch über die Betonzerkleinerung bis zur Schadstofferkundung und -sanierung.",
+        "Anfallende Materialien transportieren wir mit gruppeneigener Logistik zu geeigneten Recycling-, Verwertungs- und Entsorgungsanlagen."
+      ],
+      "sections": [
+        {
+          "heading": "Leistungen im Detail",
+          "items": [
+            "Wohngebäudeabbruch",
+            "Gewerbe- und Industrieabbruch",
+            "Hochbauabbruch mit Longfront-Bagger",
+            "Betonzerkleinerung",
+            "Mobile Zerkleinerungs- und Siebtechnik",
+            "Asbestsanierung gemäß TRGS 519",
+            "Schadstoffsanierung",
+            "Sonderabfallentsorgung",
+            "Schadstofferkundung und Begutachtung",
+            "Deklarationsanalysen und Entsorgungsnachweise"
+          ]
+        }
+      ],
+      "contact": {
+        "label": "Technischer Vertrieb",
+        "phone": "06725 300665",
+        "phoneHref": "+496725300665",
+        "email": "vertrieb@schnell-gruppe.de"
+      },
+      "image": "assets/images/service-abbruch.jpg",
+      "imageAlt": "Mobile Brech- und Siebtechnik auf einer Baustelle der Schnell Gruppe",
+      "accent": "yellow",
+      "status": "published",
+      "source": "https://schnell-gruppe.de/leistungen/abbruch-entsorgung/",
+      "legacyClaims": [
+        {
+          "text": "mehr als 20 Jahre Erfahrung",
+          "status": "pending-confirmation"
+        },
+        {
+          "text": "über 200 Maschinen und Geräte",
+          "status": "pending-confirmation"
+        }
+      ]
+    },
+    {
+      "id": "erdbau-entwaesserung",
+      "slug": "erdbau-entwaesserung",
+      "groupId": "bau-rueckbau",
+      "title": "Erdbau & Entwässerung",
+      "shortTitle": "Erdbau",
+      "eyebrow": "Bau & Rückbau",
+      "summary": "Baugruben, Erdbewegung, Bodenverbesserung und Entwässerung für Projekte jeder Größenordnung.",
+      "lead": "Vom Kelleraushub bis zur großvolumigen Baugrube führen wir Erdarbeiten fachgerecht aus und koordinieren Analyse, Abtransport und Verwertung der anfallenden Materialien.",
+      "body": [
+        "Für Komplettlösungen verbinden wir Erdbewegung mit Bodenverbesserung, Baugrubenverfüllung und der Verlegung von Grundleitungen.",
+        "Auch technische Bauwerke, Baustraßen und Lagerflächen können in den Projektablauf integriert werden."
+      ],
+      "sections": [
+        {
+          "heading": "Leistungen im Detail",
+          "items": [
+            "Baugruben von 1 bis 100.000 m³",
+            "Baustraßen und Lagerflächen",
+            "Fundament- und Kanalgrabenaushub",
+            "Planierung von Baugrundsohlen",
+            "Bodenaustausch und Bodenverbesserung",
+            "Baugrundstabilisierung",
+            "Trägerbohlenwand / Berliner Verbau",
+            "Entsorgung, Verwertung und Recycling von Böden und Baustellenabfällen",
+            "Technische Bauwerke, zum Beispiel Lärmschutzwälle",
+            "Verfüllarbeiten",
+            "Grundleitungen, Zisternen und Rigolen",
+            "Lieferung von Schüttgütern",
+            "Baugrundüberwachung mit dynamischen Lastplattendruckversuchen"
+          ]
+        }
+      ],
+      "contact": {
+        "label": "Technischer Vertrieb",
+        "phone": "06725 300665",
+        "phoneHref": "+496725300665",
+        "email": "vertrieb@schnell-gruppe.de"
+      },
+      "image": "assets/images/service-erdbau-wide.jpg",
+      "imageAlt": "Bagger der Schnell Gruppe bei Erdarbeiten auf einer Baustelle",
+      "accent": "yellow",
+      "status": "published",
+      "source": "https://schnell-gruppe.de/leistungen/erdbau-entwaesserung/",
+      "legacyClaims": [
+        {
+          "text": "über 30 Jahre Erfahrung",
+          "status": "pending-confirmation"
+        }
+      ]
+    },
+    {
+      "id": "garten-landschaftsbau",
+      "slug": "garten-landschaftsbau",
+      "groupId": "bau-rueckbau",
+      "title": "Garten & Landschaftsbau",
+      "shortTitle": "Garten & Landschaft",
+      "eyebrow": "Bau & Rückbau",
+      "summary": "Maschinen, Materialien und Werkzeuge für Arbeiten rund um Garten und Landschaft.",
+      "lead": "An den Mietstationen Ockenheim und Gensingen erhalten Sie Baumaschinen, Baugeräte und Zubehör für Projekte rund um Haus, Garten und Landschaft.",
+      "body": [
+        "Das Angebot verbindet passende Mietmaschinen mit Schüttgütern sowie Werkzeugen für Holz- und Betonarbeiten."
+      ],
+      "sections": [
+        {
+          "heading": "Angebot im Überblick",
+          "items": [
+            "Minibagger",
+            "Radlader",
+            "Schüttgüter",
+            "Werkzeuge für die Holzverarbeitung",
+            "Werkzeuge für die Betonbearbeitung",
+            "Gehänge und Zangen"
+          ]
+        }
+      ],
+      "contact": {
+        "label": "Vertriebsinnendienst",
+        "phone": "06725 300630",
+        "phoneHref": "+496725300630",
+        "email": "vermietung@schnell-gruppe.de"
+      },
+      "image": "assets/images/leistung-mietpark.jpg",
+      "imageAlt": "Walze aus dem Mietpark der Schnell Gruppe",
+      "accent": "yellow",
+      "status": "pending-confirmation",
+      "source": "https://schnell-gruppe.de/leistungen/garten-landschaftsbau/",
+      "verificationNote": "Der Umfang als eigenständige Bauleistung muss bestätigt werden. Die Bestandsseite beschreibt überwiegend Vermietung und Materialangebot."
+    },
+    {
+      "id": "containerdienst-entsorgung",
+      "slug": "containerdienst-entsorgung",
+      "groupId": "entsorgung-recycling",
+      "title": "Containerdienst, Entsorgung & Wertstoffhof",
+      "shortTitle": "Containerdienst",
+      "eyebrow": "Entsorgung & Recycling",
+      "summary": "Container von 5 bis 40 m³, Selbstanlieferung und fachgerechte Verwertung für private und gewerbliche Projekte.",
+      "lead": "Unser Containerdienst beliefert Kommunen, Gewerbe, Industrie und private Baustellen mit passenden offenen oder geschlossenen Containern.",
+      "body": [
+        "Mineralische Materialien werden an eigenen Aufbereitungsstandorten zu Recyclingbaustoffen verarbeitet. Geeignete Abfälle können außerdem am Betriebsgelände Ockenheim selbst angeliefert werden.",
+        "Ergänzend erhalten Sie Schüttgüter wie Sand, Kies und Recyclingbaustoffe sowie passende Mietmaschinen."
+      ],
+      "sections": [
+        {
+          "heading": "Entsorgungsschwerpunkte",
+          "items": [
+            "Betonaufbruch",
+            "Mineralischer Bauschutt",
+            "Erdaushub",
+            "Altholz A1 bis A3",
+            "Altholz A4",
+            "Baustellenabfälle",
+            "Abfälle zur Verwertung",
+            "Garten- und Parkabfälle",
+            "Flachglas",
+            "Künstliche Mineralfaserabfälle",
+            "Asbesthaltige Abfälle",
+            "Eisen und Schrott – Ankauf",
+            "Nichteisenmetalle – Ankauf"
+          ]
+        }
+      ],
+      "contact": {
+        "label": "Vertriebsinnendienst Container",
+        "phone": "06725 300613",
+        "phoneHref": "+496725300613",
+        "email": "container@schnell-gruppe.de"
+      },
+      "image": "assets/images/service-container.jpg",
+      "imageAlt": "Lkw und Bagger der Schnell Gruppe beim Beladen",
+      "accent": "red",
+      "status": "published",
+      "source": "https://schnell-gruppe.de/leistungen/containerdienst-entsorgung/"
+    },
+    {
+      "id": "schuettgueter",
+      "slug": "schuettgueter",
+      "groupId": "entsorgung-recycling",
+      "title": "Schüttgüter & Recyclingbaustoffe",
+      "shortTitle": "Schüttgüter",
+      "eyebrow": "Entsorgung & Recycling",
+      "summary": "Primär- und Recyclingbaustoffe aus regionaler Versorgung für Bau, Wege und Außenanlagen.",
+      "lead": "Neben Schüttgütern aus erster Hand bieten wir wiederaufbereitete mineralische Materialien aus regionalen Baustellen an.",
+      "body": [
+        "Das Sortiment verbindet geprüfte Produktqualität mit kurzen Lieferwegen und einer auf das Bauvorhaben abgestimmten Logistik."
+      ],
+      "sections": [
+        {
+          "heading": "Typische Anwendungen",
+          "items": [
+            "Unterbau und Tragschichten",
+            "Verfüllung und Geländemodellierung",
+            "Wege- und Hofflächen",
+            "Beton- und Mörtelarbeiten",
+            "Garten- und Landschaftsbau",
+            "Recyclinggerechte Materialwahl"
+          ]
+        }
+      ],
+      "contact": {
+        "label": "Vertriebsinnendienst",
+        "phone": "06725 300630",
+        "phoneHref": "+496725300630",
+        "email": "container@schnell-gruppe.de"
+      },
+      "image": "assets/images/service-schuettgueter.jpg",
+      "imageAlt": "Bagger der Schnell Gruppe beim Verladen von Schüttgut",
+      "accent": "red",
+      "status": "published",
+      "source": "https://schnell-gruppe.de/leistungen/schuettgueter/"
+    },
+    {
+      "id": "baumaschinen-baugeraetevermietung",
+      "slug": "baumaschinen-baugeraetevermietung",
+      "groupId": "maschinen-geraete",
+      "title": "Baumaschinen & Baugerätevermietung",
+      "shortTitle": "Baumaschinen mieten",
+      "eyebrow": "Maschinen & Geräte",
+      "summary": "Baumaschinen, Baugeräte, Anhänger und Zubehör an den Mietstationen Ockenheim und Gensingen.",
+      "lead": "Für Haus-, Garten-, Landschafts- und Bauprojekte stellen wir Maschinen und Geräte für unterschiedliche Einsatzgrößen bereit.",
+      "body": [
+        "Das Angebot reicht von Minibaggern und Radladern über Verdichtungstechnik bis zu Anhängern, Arbeitsbühnen und Werkzeugen. Verfügbarkeit und Einsatzort stimmen wir direkt mit Ihnen ab."
+      ],
+      "sections": [
+        {
+          "heading": "Mietstation Ockenheim",
+          "items": [
+            "Minibagger von 0,8 t bis 8,0 t",
+            "Mobilbagger bis 20 t",
+            "Abbruchbagger bis 35 t",
+            "Radlader von 2,5 t bis 8,0 t",
+            "Anbaugeräte für Bagger und Radlader",
+            "Lkw 7,5 t GG mit Kippaufbau",
+            "Kompaktlader",
+            "Raddumper",
+            "Rüttelstampfer",
+            "Grabenwalzen und Walzenzüge",
+            "Rüttelplatten von 400 kg bis 700 kg",
+            "Baukompressoren",
+            "Mauersteinsägen",
+            "Mauersteinkräne mit Zubehör",
+            "Fahrgerüste bis 12 m",
+            "Baustellensicherung und Baustellenschilder",
+            "Raum- und Baustellencontainer"
+          ]
+        },
+        {
+          "heading": "Mietstation Gensingen",
+          "items": [
+            "Minibagger von 0,8 t bis 1,8 t",
+            "Radlader 2,5 t",
+            "Rüttelstampfer",
+            "Rüttelplatten von 200 kg bis 300 kg",
+            "Kühl-, Transport-, Kipp- und Tiertransportanhänger",
+            "Teleskoparbeitsbühne als Pkw-Anhänger",
+            "Gartengeräte",
+            "Fliesen- und Steinsägen",
+            "Bohr- und Abbruchhämmer",
+            "Erdbohrer",
+            "Bautrockner",
+            "Schmutzwasserpumpen",
+            "Werkzeuge für Holz- und Trockenbau"
+          ]
+        }
+      ],
+      "contact": {
+        "label": "Vertriebsinnendienst Vermietung",
+        "phone": "06725 300630",
+        "phoneHref": "+496725300630",
+        "email": "vermietung@schnell-gruppe.de"
+      },
+      "image": "assets/images/service-maschinen.jpg",
+      "imageAlt": "Kettenbagger der Schnell Gruppe auf dem Betriebsgelände",
+      "accent": "green",
+      "status": "published",
+      "source": "https://schnell-gruppe.de/leistungen/baumaschinen-baugeraetevermietung/"
+    },
+    {
+      "id": "kehrmaschine",
+      "slug": "kehrmaschine",
+      "groupId": "maschinen-geraete",
+      "title": "Kehrmaschine",
+      "shortTitle": "Kehrsaugwagen",
+      "eyebrow": "Maschinen & Geräte",
+      "summary": "Kehrsaugwagen Volvo Magnum Plus für Baustellen, Verkehrsflächen und intensive Reinigungsaufgaben.",
+      "lead": "Der Kehrsaugwagen verbindet eine variable Kehrbreite mit großem Wasser- und Kehrgutvolumen sowie Hochdrucktechnik für fest sitzenden Baustellenschmutz.",
+      "body": [
+        "Heckansaugung, beidseitige Besensysteme und zusätzliche Staubreduzierung ermöglichen flexible Einsätze auf unterschiedlichen Flächen."
+      ],
+      "sections": [
+        {
+          "heading": "Technische Daten",
+          "items": [
+            "Gesamtgewicht: 27 t",
+            "Nutzlast: 9,7 t",
+            "Kehrbreite: 2,25 bis 3,30 m",
+            "Frischwassertank: 4.000 l",
+            "Kehrgutbehälter: 8.200 l",
+            "Maximale Auskipphöhe: 140 cm",
+            "Abgasnorm: Euro 6"
+          ]
+        },
+        {
+          "heading": "Ausstattung",
+          "items": [
+            "Hochdruck- und Hochleistungspumpe mit Handlanze",
+            "Zusätzliche Staubreduzierung an Saugdüsen und -schläuchen",
+            "Heckansaugung auf voller Breite mit Hochdruckwassersystem",
+            "Doppelkehrbesen auf beiden Seiten",
+            "Zwei schwenkbare Breitbesen",
+            "Hochdruckaufschwemmung für festgefahrenen Baustellenschmutz"
+          ]
+        }
+      ],
+      "contact": {
+        "label": "Vertriebsinnendienst Vermietung",
+        "phone": "06725 300630",
+        "phoneHref": "+496725300630",
+        "email": "vermietung@schnell-gruppe.de"
+      },
+      "image": "assets/images/service-transport.jpg",
+      "imageAlt": "Fahrzeug und Baumaschine der Schnell Gruppe im Baustelleneinsatz",
+      "accent": "green",
+      "status": "published",
+      "source": "https://schnell-gruppe.de/leistungen/kehrmaschine/"
+    },
+    {
+      "id": "sanieren-renovieren",
+      "slug": "sanieren-renovieren",
+      "groupId": "maschinen-geraete",
+      "title": "Sanieren & Renovieren",
+      "shortTitle": "Sanieren & Renovieren",
+      "eyebrow": "Maschinen & Geräte",
+      "summary": "Werkzeuge, Trocknung, Arbeitsbühnen und Rohbauausstattung für Sanierungs- und Renovierungsarbeiten.",
+      "lead": "An den Standorten Ockenheim und Gensingen erhalten Sie Geräte und Werkzeuge für Sanierung, Renovierung und Rohbau.",
+      "body": [
+        "Wir stellen die passende Technik für einzelne Arbeitsschritte oder komplette Vorhaben zusammen."
+      ],
+      "sections": [
+        {
+          "heading": "Angebot im Überblick",
+          "items": [
+            "Elektrowerkzeuge",
+            "Ventilatoren",
+            "Raumentfeuchter",
+            "Diamantwerkzeuge",
+            "Kabel und Verteiler",
+            "Bohr- und Meißelhämmer",
+            "Bohrgeräte und Zubehör",
+            "Holzbearbeitung",
+            "Reinigungsgeräte",
+            "Gerüste und Arbeitsbühnen",
+            "Betonverarbeitung",
+            "Rohbauausstattung",
+            "Mauersteintechnik"
+          ]
+        }
+      ],
+      "contact": {
+        "label": "Vertriebsinnendienst Vermietung",
+        "phone": "06725 300630",
+        "phoneHref": "+496725300630",
+        "email": "vermietung@schnell-gruppe.de"
+      },
+      "image": "assets/images/leistung-mietpark.jpg",
+      "imageAlt": "Baumaschine aus dem Mietpark der Schnell Gruppe",
+      "accent": "green",
+      "status": "published",
+      "source": "https://schnell-gruppe.de/leistungen/sanieren-renovieren/"
+    },
+    {
+      "id": "gartenwelt",
+      "slug": "gartenwelt",
+      "groupId": "maschinen-geraete",
+      "title": "Gartenwelt",
+      "shortTitle": "Gartenwelt",
+      "eyebrow": "Maschinen & Geräte",
+      "summary": "Boden, Mulch, Geräte und Entsorgung für Gartenprojekte an den Standorten Gensingen und Ockenheim.",
+      "lead": "Für den Start oder die Umgestaltung Ihres Gartens erhalten Sie Materialien, Mietgeräte und passende Entsorgungslösungen aus einer Hand.",
+      "body": [
+        "Die Angebote sind an den Standorten Gensingen und Ockenheim verfügbar."
+      ],
+      "sections": [
+        {
+          "heading": "Für Ihren Garten",
+          "items": [
+            "Pflanzboden und Bodensubstrat",
+            "Entsorgung von Gartenabfällen",
+            "Hackschnitzel und Rindenmulch",
+            "Vermietung von Gartengeräten"
+          ]
+        }
+      ],
+      "contact": {
+        "label": "Vertriebsinnendienst Vermietung",
+        "phone": "06725 300630",
+        "phoneHref": "+496725300630",
+        "email": "vermietung@schnell-gruppe.de"
+      },
+      "image": "assets/images/leistung-mietpark.jpg",
+      "imageAlt": "Walze aus dem Gerätepark der Schnell Gruppe",
+      "accent": "green",
+      "status": "published",
+      "source": "https://schnell-gruppe.de/leistungen/gartenwelt/"
+    },
+    {
+      "id": "transportieren",
+      "slug": "transportieren",
+      "groupId": "transport-saison",
+      "title": "Transportieren",
+      "shortTitle": "Transporte",
+      "eyebrow": "Transport & Saison",
+      "summary": "Tieflader-, Schüttgut- und Spezialtransporte sowie Anhängerverleih für flexible Logistik.",
+      "lead": "Schwer, groß, wertvoll oder sperrig: Unsere Disposition organisiert Transporte flexibel und zuverlässig von A nach B.",
+      "body": [
+        "Wenn Sie selbst transportieren möchten, stehen verschiedene Anhänger für unterschiedliche Einsatzzwecke zur Verfügung."
+      ],
+      "sections": [
+        {
+          "heading": "Transporte im Überblick",
+          "items": [
+            "Tiefladertransporte, auch mit Überbreite",
+            "Transport von Schüttgütern",
+            "Anhängerverleih für unterschiedliche Anforderungen"
+          ]
+        }
+      ],
+      "contact": {
+        "label": "Disposition",
+        "phone": "06725 300660",
+        "phoneHref": "+496725300660",
+        "email": "disposition@schnell-gruppe.de"
+      },
+      "image": "assets/images/service-transport.jpg",
+      "imageAlt": "Lkw und Bagger der Schnell Gruppe beim Materialtransport",
+      "accent": "yellow",
+      "status": "published",
+      "source": "https://schnell-gruppe.de/leistungen/transportieren/"
+    },
+    {
+      "id": "winterdienst",
+      "slug": "winterdienst",
+      "groupId": "transport-saison",
+      "title": "Winterdienst",
+      "shortTitle": "Winterdienst",
+      "eyebrow": "Transport & Saison",
+      "summary": "Schneeräumung, Streudienst und Kontrollfahrten für sichere Flächen in der kalten Jahreszeit.",
+      "lead": "Bei Schnee und Eis sorgen wir für geräumte und gestreute Flächen – flexibel, zuverlässig und bei Bedarf auch außerhalb regulärer Arbeitszeiten.",
+      "body": [
+        "Einsatzumfang und Kontrollrhythmus werden passend zu Fläche, Nutzung und Wetterlage abgestimmt."
+      ],
+      "sections": [
+        {
+          "heading": "Winterdienst auf einen Blick",
+          "items": [
+            "Schneeräumung und Streudienst",
+            "Einsätze rund um die Uhr, auch an Sonn- und Feiertagen",
+            "Kontrollfahrten",
+            "Salzlieferungen auf Kundenwunsch",
+            "Flexible Einsatzplanung"
+          ]
+        }
+      ],
+      "contact": {
+        "label": "Vertriebsinnendienst",
+        "phone": "06725 300630",
+        "phoneHref": "+496725300630",
+        "email": "vermietung@schnell-gruppe.de"
+      },
+      "image": "assets/images/service-transport.jpg",
+      "imageAlt": "Fahrzeug der Schnell Gruppe als Symbol für mobile Einsätze",
+      "accent": "yellow",
+      "status": "published",
+      "source": "https://schnell-gruppe.de/leistungen/winterdienst/",
+      "legacyClaims": [
+        {
+          "text": "mehr als 20 Jahre Erfahrung",
+          "status": "pending-confirmation"
+        }
+      ]
+    }
+  ]
+}

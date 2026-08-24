@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leistungen | Schnell Gruppe</title>
+  <meta name="description" content="Alle Leistungen der Schnell Gruppe: Erdbau, Abbruch, Entsorgung, Container, Mietgeräte, Schüttgüter, Transporte und Winterdienst.">
+  <meta name="theme-color" content="#0c0d0e">
+  <link rel="canonical" href="https://schnell-gruppe.de/leistungen/">
+  <link rel="preload" href="{{ASSET_PREFIX}}assets/fonts/barlow-condensed-800.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ASSET_PREFIX}}assets/images/service-overview.jpg" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}assets/css/tokens.css">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}assets/css/main.css">
+  <script src="{{ASSET_PREFIX}}assets/js/main.js" defer></script>
+</head>
+<body class="subpage">
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <div class="utility-bar"><div class="container utility-bar__inner"><span>Vier Standorte in Rheinhessen und an der Nahe</span><div class="utility-bar__links"><a href="/#standorte">Standorte</a><a href="tel:{{COMPANY_PHONE_HREF}}">{{COMPANY_PHONE}}</a></div></div></div>
+  <header class="site-header" data-site-header>
+    <div class="container site-header__inner">
+      <a class="site-logo" href="/" aria-label="Schnell Gruppe – Startseite"><img src="{{ASSET_PREFIX}}assets/images/logo-white.webp" width="768" height="301" alt="Schnell Gruppe"></a>
+      <nav class="desktop-nav" aria-label="Hauptnavigation">{{NAVIGATION}}</nav>
+      <a class="button button--small header-cta" href="/kontakt/?quelle=header">Angebot anfragen <span aria-hidden="true">→</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle><span class="menu-toggle__label">Menü</span><span class="menu-toggle__icon" aria-hidden="true"><i></i><i></i></span></button>
+    </div>
+  </header>
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true" data-mobile-menu>
+    <nav aria-label="Mobile Navigation">{{MOBILE_NAVIGATION}}</nav>
+    <div class="mobile-menu__contact"><a href="tel:{{COMPANY_PHONE_HREF}}">{{COMPANY_PHONE}}</a><a href="mailto:{{COMPANY_EMAIL}}">{{COMPANY_EMAIL}}</a></div>
+  </div>
+
+  <main id="main">
+    <header class="page-hero page-hero--index">
+      <img class="page-hero__image" src="{{ASSET_PREFIX}}assets/images/service-overview.jpg" width="1800" height="1125" alt="Bagger der Schnell Gruppe auf einer Baustelle" fetchpriority="high">
+      <div class="page-hero__overlay"></div>
+      <div class="container page-hero__inner" data-reveal>
+        <nav class="breadcrumb" aria-label="Brotkrumen"><a href="/">Startseite</a><span aria-hidden="true">/</span><span>Leistungen</span></nav>
+        <p class="eyebrow eyebrow--light">11 Leistungsbereiche</p>
+        <h1>Alles für Ihr Projekt.</h1>
+        <p>Von Bau und Rückbau über Entsorgung und Vermietung bis zu Transport und Winterdienst: Finden Sie direkt den passenden Fachbereich.</p>
+      </div>
+    </header>
+
+    <section class="section service-index" aria-labelledby="service-index-title">
+      <div class="container">
+        <div class="intro__grid service-index__intro" data-reveal>
+          <div><p class="eyebrow">Leistungsspektrum</p><h2 id="service-index-title">Vier Gruppen. Kurze Wege.</h2></div>
+          <p>Unsere Fachbereiche arbeiten eng zusammen. Dadurch können einzelne Leistungen ebenso klar organisiert werden wie komplexe Projekte mit mehreren Gewerken.</p>
+        </div>
+        <div class="service-index-groups">{{SERVICE_INDEX_GROUPS}}</div>
+      </div>
+    </section>
+
+    <section class="closing-cta">
+      <div class="container closing-cta__inner" data-reveal>
+        <p class="eyebrow">Nicht sicher, was Sie benötigen?</p>
+        <h2>Wir bringen Ihre Anfrage an die richtige Stelle.</h2>
+        <p>Beschreiben Sie kurz Ihr Projekt. Wir verbinden Sie direkt mit dem passenden Fachbereich.</p>
+        <a class="button button--dark" href="/kontakt/?quelle=leistungen">Projekt anfragen <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+      <div class="site-footer__brand"><img src="{{ASSET_PREFIX}}assets/images/logo-white.webp" width="768" height="301" loading="lazy" alt="Schnell Gruppe"><p>Erdbau · Abbruch · Transport<br>Vermietung · Containerdienst</p></div>
+      <div><h2 class="footer-title">Kontakt</h2><address>{{COMPANY_ADDRESS}}<br><a href="tel:{{COMPANY_PHONE_HREF}}">{{COMPANY_PHONE}}</a><br><a href="mailto:{{COMPANY_EMAIL}}">{{COMPANY_EMAIL}}</a></address></div>
+      <div><h2 class="footer-title">Direkt</h2><ul class="footer-links"><li><a href="/mietpark/">Mietpark</a></li><li><a href="/downloads/">Downloads</a></li><li><a href="/stellenangebote/">Karriere</a></li><li><a href="/kontakt/">Kontakt</a></li></ul></div>
+      <div><h2 class="footer-title">Rechtliches</h2><ul class="footer-links"><li><a href="/impressum/">Impressum</a></li><li><a href="/datenschutz/">Datenschutz</a></li><li><a href="/agb/">AGB</a></li></ul></div>
+    </div>
+    <div class="container site-footer__bottom"><span>© <span data-current-year></span> Schnell Gruppe</span><a href="#main">Nach oben ↑</a></div>
+  </footer>
+</body>
+</html>

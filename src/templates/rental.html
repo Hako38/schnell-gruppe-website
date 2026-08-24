@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mietpark | Schnell Gruppe</title>
+  <meta name="description" content="Baumaschinen, Baugeräte, Anhänger und Werkzeuge der Schnell Gruppe an den Mietstationen Ockenheim und Gensingen.">
+  <meta name="theme-color" content="#0c0d0e">
+  <link rel="canonical" href="https://schnell-gruppe.de/mietpark/">
+  <link rel="preload" href="{{ASSET_PREFIX}}assets/fonts/barlow-condensed-800.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ASSET_PREFIX}}assets/images/leistung-mietpark.jpg" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}assets/css/tokens.css">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}assets/css/main.css">
+  <script src="{{ASSET_PREFIX}}assets/js/main.js" defer></script>
+</head>
+<body class="subpage rental-page">
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <div class="utility-bar"><div class="container utility-bar__inner"><span>Zwei Mietcenter: Ockenheim und Gensingen</span><div class="utility-bar__links"><a href="/standorte/">Standorte</a><a href="tel:{{COMPANY_PHONE_HREF}}">{{COMPANY_PHONE}}</a></div></div></div>
+  <header class="site-header" data-site-header><div class="container site-header__inner"><a class="site-logo" href="/" aria-label="Schnell Gruppe – Startseite"><img src="{{ASSET_PREFIX}}assets/images/logo-white.webp" width="768" height="301" alt="Schnell Gruppe"></a><nav class="desktop-nav" aria-label="Hauptnavigation">{{NAVIGATION}}</nav><a class="button button--small header-cta" href="/kontakt/?thema=mietgeraete&amp;quelle=header">Mietgerät anfragen <span aria-hidden="true">→</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle><span class="menu-toggle__label">Menü</span><span class="menu-toggle__icon" aria-hidden="true"><i></i><i></i></span></button></div></header>
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true" data-mobile-menu><nav aria-label="Mobile Navigation">{{MOBILE_NAVIGATION}}</nav><div class="mobile-menu__contact"><a href="tel:{{COMPANY_PHONE_HREF}}">{{COMPANY_PHONE}}</a><a href="mailto:{{COMPANY_EMAIL}}">{{COMPANY_EMAIL}}</a></div></div>
+
+  <main id="main">
+    <header class="rental-hero">
+      <div class="rental-hero__media"><img src="{{ASSET_PREFIX}}assets/images/leistung-mietpark.jpg" width="1400" height="875" alt="Walze aus dem Mietpark der Schnell Gruppe" fetchpriority="high"></div>
+      <div class="rental-hero__copy"><div data-reveal><nav class="breadcrumb" aria-label="Brotkrumen"><a href="/">Startseite</a><span aria-hidden="true">/</span><span>Mietpark</span></nav><p class="eyebrow eyebrow--light">Maschinen & Geräte</p><h1>Das passende Gerät für Ihr Vorhaben.</h1><p>Maschinen, Anhänger und Werkzeuge für professionelle Einsätze und private Projekte – verfügbar in Ockenheim und Gensingen.</p><a class="button" href="#mietpark-katalog">Geräte finden <span aria-hidden="true">↓</span></a></div></div>
+    </header>
+
+    <section class="section rental-catalog" id="mietpark-katalog" aria-labelledby="rental-title">
+      <div class="container">
+        <div class="section-heading" data-reveal><div><p class="eyebrow">Mietkatalog</p><h2 id="rental-title">Schnell finden. Direkt anfragen.</h2></div><p class="catalog-note">Preise und aktuelle Verfügbarkeit erhalten Sie auf Anfrage.</p></div>
+        <form class="rental-filters" data-rental-filters aria-label="Mietgeräte filtern">
+          <label><span>Suche</span><input type="search" name="search" placeholder="z. B. Minibagger" data-rental-search></label>
+          <label><span>Kategorie</span><select name="category" data-rental-category><option value="all">Alle Kategorien</option>{{RENTAL_CATEGORY_OPTIONS}}</select></label>
+          <label><span>Standort</span><select name="location" data-rental-location><option value="all">Alle Standorte</option><option value="ockenheim">Ockenheim</option><option value="gensingen">Gensingen</option></select></label>
+        </form>
+        <div class="rental-results" aria-live="polite"><strong data-rental-count>{{RENTAL_ITEM_COUNT}} Geräte & Gruppen</strong><span>Keine Live-Verfügbarkeitsanzeige</span></div>
+        <div class="rental-grid" data-rental-grid>{{RENTAL_ITEMS}}</div>
+        <p class="rental-empty" data-rental-empty hidden>Für diese Auswahl wurden keine Mietgeräte gefunden. Ändern Sie die Filter oder fragen Sie uns direkt.</p>
+      </div>
+    </section>
+
+    <section class="rental-contact-strip"><div class="container rental-contact-strip__inner" data-reveal><div><p class="eyebrow">Persönliche Beratung</p><h2>Welches Gerät passt zu Ihrem Einsatz?</h2></div><div><a href="tel:{{RENTAL_PHONE_HREF}}">{{RENTAL_PHONE}}</a><a href="mailto:{{RENTAL_EMAIL}}">{{RENTAL_EMAIL}}</a><a class="button button--dark" href="/kontakt/?thema=mietgeraete">Mietanfrage starten <span aria-hidden="true">→</span></a></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container site-footer__grid"><div class="site-footer__brand"><img src="{{ASSET_PREFIX}}assets/images/logo-white.webp" width="768" height="301" loading="lazy" alt="Schnell Gruppe"><p>Erdbau · Abbruch · Transport<br>Vermietung · Containerdienst</p></div><div><h2 class="footer-title">Kontakt</h2><address>{{COMPANY_ADDRESS}}<br><a href="tel:{{COMPANY_PHONE_HREF}}">{{COMPANY_PHONE}}</a><br><a href="mailto:{{COMPANY_EMAIL}}">{{COMPANY_EMAIL}}</a></address></div><div><h2 class="footer-title">Direkt</h2><ul class="footer-links"><li><a href="/mietpark/">Mietpark</a></li><li><a href="/standorte/">Standorte</a></li><li><a href="/downloads/">Downloads</a></li><li><a href="/kontakt/">Kontakt</a></li></ul></div><div><h2 class="footer-title">Rechtliches</h2><ul class="footer-links"><li><a href="/impressum/">Impressum</a></li><li><a href="/datenschutz/">Datenschutz</a></li><li><a href="/agb/">AGB</a></li></ul></div></div><div class="container site-footer__bottom"><span>© <span data-current-year></span> Schnell Gruppe</span><a href="#main">Nach oben ↑</a></div></footer>
+</body>
+</html>

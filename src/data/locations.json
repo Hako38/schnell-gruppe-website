@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "version": "0.8.0",
+    "status": "review",
+    "source": "https://schnell-gruppe.de/standorte/",
+    "openingHoursSource": "https://schnell-gruppe.de/oeffnungszeiten/",
+    "count": 4
+  },
+  "locations": [
+    {
+      "id": "ockenheim",
+      "slug": "ockenheim",
+      "name": "Ockenheim",
+      "type": "Hauptstandort",
+      "street": "Gaulsheimer Str. 18",
+      "postalCode": "55437",
+      "city": "Ockenheim",
+      "address": "Gaulsheimer Str. 18, 55437 Ockenheim",
+      "phone": "06725 300630",
+      "phoneHref": "+496725300630",
+      "email": "vermietung@schnell-gruppe.de",
+      "functions": ["Verwaltung", "Transport & Baggerbetrieb", "Containerdienst & Entsorgung", "Mietcenter", "Schüttgüter", "Wertstoffhof"],
+      "summary": "Der vielseitigste Standort der Gruppe verbindet Verwaltung, Mietcenter, Containerdienst, Schüttgüter und Wertstoffhof.",
+      "openingHours": [
+        { "season": "Winter", "period": "1. November – 31. März", "weekdays": "Mo – Fr", "weekdayHours": "7:30 – 17:00 Uhr", "saturday": "Sa", "saturdayHours": "8:00 – 12:00 Uhr" },
+        { "season": "Sommer", "period": "1. April – 31. Oktober", "weekdays": "Mo – Fr", "weekdayHours": "7:00 – 18:00 Uhr", "saturday": "Sa", "saturdayHours": "7:00 – 13:00 Uhr" }
+      ],
+      "routeUrl": "https://www.google.com/maps/search/?api=1&query=Gaulsheimer+Str.+18%2C+55437+Ockenheim",
+      "image": "assets/images/service-container.jpg",
+      "imageAlt": "Lkw und Bagger der Schnell Gruppe als Motiv für den Standort Ockenheim",
+      "mediaNote": "Motiv aus dem Leistungsbereich",
+      "status": "published",
+      "legacySpecialHours": [
+        { "text": "KW 52 geschlossen; KW 1 verkürzte Öffnungszeiten", "status": "pending-annual-confirmation" }
+      ]
+    },
+    {
+      "id": "gensingen",
+      "slug": "gensingen",
+      "name": "Gensingen",
+      "type": "Mietcenter",
+      "street": "Binger Str. 29",
+      "additional": "Am Globus-Kreisel",
+      "postalCode": "55457",
+      "city": "Gensingen",
+      "address": "Binger Str. 29, 55457 Gensingen",
+      "phone": "06725 300650",
+      "phoneHref": "+496725300650",
+      "email": "gensingen@schnell-gruppe.de",
+      "functions": ["Mietcenter"],
+      "summary": "Das Mietcenter am Globus-Kreisel bietet kompakte Baumaschinen, Anhänger, Gartengeräte und Werkzeuge.",
+      "openingHours": [
+        { "season": "Winter", "period": "1. November – 31. März", "weekdays": "Mo – Fr", "weekdayHours": "8:00 – 17:00 Uhr", "saturday": "Sa", "saturdayHours": "8:00 – 12:00 Uhr" },
+        { "season": "Sommer", "period": "1. April – 31. Oktober", "weekdays": "Mo – Fr", "weekdayHours": "8:00 – 18:00 Uhr", "saturday": "Sa", "saturdayHours": "8:00 – 13:00 Uhr" }
+      ],
+      "routeUrl": "https://www.google.com/maps/search/?api=1&query=Binger+Str.+29%2C+55457+Gensingen",
+      "image": "assets/images/service-maschinen.jpg",
+      "imageAlt": "Baumaschine der Schnell Gruppe als Motiv für das Mietcenter Gensingen",
+      "mediaNote": "Motiv aus dem Leistungsbereich",
+      "status": "published",
+      "legacySpecialHours": [
+        { "text": "KW 52 geschlossen; KW 1 verkürzte Öffnungszeiten", "status": "pending-annual-confirmation" }
+      ]
+    },
+    {
+      "id": "ingelheim",
+      "slug": "ingelheim",
+      "name": "Ingelheim",
+      "type": "Recyclingstandort",
+      "street": "Am Schützenhaus (L 428)",
+      "postalCode": "55218",
+      "city": "Ingelheim",
+      "address": "Am Schützenhaus (L 428), 55218 Ingelheim",
+      "phone": null,
+      "phoneHref": null,
+      "email": null,
+      "functions": ["Recyclinganlage mineralische Abfälle", "Schüttgüter"],
+      "summary": "Recyclinganlage für mineralische Abfälle und regionaler Bezugspunkt für Schüttgüter.",
+      "openingHours": [
+        { "season": "Ganzjährig", "period": null, "weekdays": "Mo – Fr", "weekdayHours": "7:00 – 17:00 Uhr", "saturday": null, "saturdayHours": null }
+      ],
+      "routeUrl": "https://www.google.com/maps/search/?api=1&query=Am+Sch%C3%BCtzenhaus+L+428%2C+55218+Ingelheim",
+      "image": "assets/images/service-schuettgueter.jpg",
+      "imageAlt": "Bagger beim Verladen mineralischer Materialien als Motiv für Ingelheim",
+      "mediaNote": "Motiv aus dem Leistungsbereich",
+      "status": "published",
+      "legacySpecialHours": [
+        { "text": "Jahreswechsel geschlossen", "status": "pending-annual-confirmation" }
+      ]
+    },
+    {
+      "id": "bad-kreuznach",
+      "slug": "bad-kreuznach",
+      "name": "Bad Kreuznach",
+      "type": "Recyclingstandort",
+      "street": "Am Kehrenberg (Kuhberg)",
+      "postalCode": "55543",
+      "city": "Bad Kreuznach",
+      "address": "Am Kehrenberg (Kuhberg), 55543 Bad Kreuznach",
+      "phone": null,
+      "phoneHref": null,
+      "email": null,
+      "functions": ["Recyclinganlage mineralische Abfälle", "Schüttgüter"],
+      "summary": "Recyclinganlage für mineralische Abfälle und Abholung von Schüttgütern am Kuhberg.",
+      "openingHours": [
+        { "season": "Ganzjährig", "period": null, "weekdays": "Mo – Fr", "weekdayHours": "7:00 – 17:00 Uhr", "saturday": null, "saturdayHours": null }
+      ],
+      "routeUrl": "https://www.google.com/maps/search/?api=1&query=Am+Kehrenberg+Kuhberg%2C+55543+Bad+Kreuznach",
+      "image": "assets/images/service-abbruch.jpg",
+      "imageAlt": "Aufbereitungstechnik der Schnell Gruppe als Motiv für Bad Kreuznach",
+      "mediaNote": "Motiv aus dem Leistungsbereich",
+      "status": "published",
+      "legacySpecialHours": [
+        { "text": "Witterungsabhängige Winterpause zum Jahreswechsel", "status": "pending-annual-confirmation" }
+      ]
+    }
+  ]
+}

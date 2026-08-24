@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{META_TITLE}}</title>
+  <meta name="description" content="{{META_DESCRIPTION}}">
+  <meta name="theme-color" content="#0c0d0e">
+  <link rel="canonical" href="{{META_CANONICAL}}">
+  {{ROBOTS_META}}
+  <link rel="preload" href="{{ASSET_PREFIX}}assets/fonts/barlow-condensed-800.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{HERO_IMAGE}}" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}assets/css/tokens.css">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}assets/css/main.css">
+  <script src="{{ASSET_PREFIX}}assets/js/main.js" defer></script>
+</head>
+<body class="subpage service-accent--{{ACCENT}}">
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <div class="utility-bar"><div class="container utility-bar__inner"><span>Vier Standorte in Rheinhessen und an der Nahe</span><div class="utility-bar__links"><a href="/#standorte">Standorte</a><a href="tel:{{COMPANY_PHONE_HREF}}">{{COMPANY_PHONE}}</a></div></div></div>
+  <header class="site-header" data-site-header>
+    <div class="container site-header__inner">
+      <a class="site-logo" href="/" aria-label="Schnell Gruppe – Startseite"><img src="{{ASSET_PREFIX}}assets/images/logo-white.webp" width="768" height="301" alt="Schnell Gruppe"></a>
+      <nav class="desktop-nav" aria-label="Hauptnavigation">{{NAVIGATION}}</nav>
+      <a class="button button--small header-cta" href="/kontakt/?thema={{SLUG}}&amp;quelle=header">Angebot anfragen <span aria-hidden="true">→</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle><span class="menu-toggle__label">Menü</span><span class="menu-toggle__icon" aria-hidden="true"><i></i><i></i></span></button>
+    </div>
+  </header>
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true" data-mobile-menu>
+    <nav aria-label="Mobile Navigation">{{MOBILE_NAVIGATION}}</nav>
+    <div class="mobile-menu__contact"><a href="tel:{{COMPANY_PHONE_HREF}}">{{COMPANY_PHONE}}</a><a href="mailto:{{COMPANY_EMAIL}}">{{COMPANY_EMAIL}}</a></div>
+  </div>
+
+  <main id="main">
+    <header class="detail-hero">
+      <div class="detail-hero__copy">
+        <div class="detail-hero__copy-inner" data-reveal>
+          <nav class="breadcrumb" aria-label="Brotkrumen"><a href="/">Startseite</a><span aria-hidden="true">/</span><a href="/leistungen/">Leistungen</a><span aria-hidden="true">/</span><span>{{SHORT_TITLE}}</span></nav>
+          <p class="eyebrow eyebrow--light">{{EYEBROW}}</p>
+          <h1>{{TITLE}}</h1>
+          <p>{{SUMMARY}}</p>
+          <a class="button" href="/kontakt/?thema={{SLUG}}&amp;quelle=leistungsseite">Projekt anfragen <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="detail-hero__media"><img src="{{HERO_IMAGE}}" width="{{IMAGE_WIDTH}}" height="{{IMAGE_HEIGHT}}" alt="{{HERO_IMAGE_ALT}}" fetchpriority="high"></div>
+    </header>
+
+    <section class="section service-content">
+      <div class="container service-content__grid">
+        <article class="service-copy" data-reveal>
+          <p class="eyebrow">Leistung</p>
+          <h2>{{LEAD}}</h2>
+          {{BODY_PARAGRAPHS}}
+        </article>
+        <aside class="contact-panel" aria-labelledby="contact-title" data-reveal>
+          <p class="card-label">Direkter Kontakt</p>
+          <h2 id="contact-title">{{CONTACT_LABEL}}</h2>
+          <a class="contact-panel__phone" href="tel:{{CONTACT_PHONE_HREF}}">{{CONTACT_PHONE}}</a>
+          <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a>
+          <a class="button button--dark" href="/kontakt/?thema={{SLUG}}">Anfrage senden <span aria-hidden="true">→</span></a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="service-features" aria-label="Leistungsumfang">
+      <div class="container">{{FEATURE_SECTIONS}}</div>
+    </section>
+
+    <section class="section related-services" aria-labelledby="related-title">
+      <div class="container">
+        <div class="section-heading" data-reveal><div><p class="eyebrow">Weitere Leistungen</p><h2 id="related-title">Das könnte auch passen.</h2></div><a class="text-link" href="/leistungen/">Alle Leistungen <span aria-hidden="true">→</span></a></div>
+        <div class="related-grid">{{RELATED_SERVICES}}</div>
+      </div>
+    </section>
+
+    <section class="closing-cta">
+      <div class="container closing-cta__inner" data-reveal><p class="eyebrow">Direkt zum passenden Fachbereich</p><h2>Ihr Projekt beginnt mit einem kurzen Gespräch.</h2><p>Schildern Sie uns Aufgabe, Einsatzort und gewünschten Zeitraum.</p><a class="button button--dark" href="/kontakt/?thema={{SLUG}}&amp;quelle=abschluss">Angebot anfragen <span aria-hidden="true">→</span></a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+      <div class="site-footer__brand"><img src="{{ASSET_PREFIX}}assets/images/logo-white.webp" width="768" height="301" loading="lazy" alt="Schnell Gruppe"><p>Erdbau · Abbruch · Transport<br>Vermietung · Containerdienst</p></div>
+      <div><h2 class="footer-title">Kontakt</h2><address>{{COMPANY_ADDRESS}}<br><a href="tel:{{COMPANY_PHONE_HREF}}">{{COMPANY_PHONE}}</a><br><a href="mailto:{{COMPANY_EMAIL}}">{{COMPANY_EMAIL}}</a></address></div>
+      <div><h2 class="footer-title">Direkt</h2><ul class="footer-links"><li><a href="/mietpark/">Mietpark</a></li><li><a href="/downloads/">Downloads</a></li><li><a href="/stellenangebote/">Karriere</a></li><li><a href="/kontakt/">Kontakt</a></li></ul></div>
+      <div><h2 class="footer-title">Rechtliches</h2><ul class="footer-links"><li><a href="/impressum/">Impressum</a></li><li><a href="/datenschutz/">Datenschutz</a></li><li><a href="/agb/">AGB</a></li></ul></div>
+    </div>
+    <div class="container site-footer__bottom"><span>© <span data-current-year></span> Schnell Gruppe</span><a href="#main">Nach oben ↑</a></div>
+  </footer>
+</body>
+</html>

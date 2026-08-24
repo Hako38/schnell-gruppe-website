@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "version": "0.11.0",
+    "status": "review",
+    "verifiedAt": "2026-08-24",
+    "source": "https://schnell-gruppe.de/ansprechpartner/",
+    "publishingRule": "Kontaktangaben vor dem Produktivgang erneut bestätigen."
+  },
+  "departments": [
+    {
+      "id": "geschaeftsleitung",
+      "label": "Geschäftsleitung",
+      "email": "info@schnell-gruppe.de",
+      "phone": "06725 300660",
+      "phoneHref": "+496725300660",
+      "people": [
+        "Jürgen Schnell"
+      ]
+    },
+    {
+      "id": "assistenz",
+      "label": "Assistenz der Geschäftsleitung",
+      "people": [
+        {
+          "name": "Johannes Schnell",
+          "phone": "06725 300668",
+          "email": "johannes.schnell@schnell-gruppe.de"
+        },
+        {
+          "name": "Angelika Schindel",
+          "phone": "06725 300666",
+          "email": "angelika.schindel@schnell-gruppe.de"
+        }
+      ]
+    },
+    {
+      "id": "erdbau-abbruch",
+      "label": "Vertrieb Erdbau und Abbruch",
+      "email": "vertrieb@schnell-gruppe.de",
+      "people": [
+        {
+          "name": "Jürgen Kunzmann",
+          "phone": "06725 300637",
+          "mobile": "0175 9318117"
+        },
+        {
+          "name": "Julian Schnell",
+          "phone": "06725 300636",
+          "mobile": "0175 9318182"
+        }
+      ]
+    },
+    {
+      "id": "schuettgueter-disposition",
+      "label": "Vertrieb Schüttgüter und Disposition",
+      "email": "disposition@schnell-gruppe.de",
+      "phone": "06725 300660",
+      "people": [
+        "Kevin Lenges",
+        "Stefan Steinmetz"
+      ]
+    },
+    {
+      "id": "container",
+      "label": "Vertrieb Container und Entsorgung",
+      "email": "container@schnell-gruppe.de",
+      "phone": "06725 300613",
+      "people": [
+        "Stefan Fischer",
+        "Thorsten Marx"
+      ]
+    },
+    {
+      "id": "mietgeraete-ockenheim",
+      "label": "Vertrieb Mietgeräte Ockenheim",
+      "email": "vermietung@schnell-gruppe.de",
+      "phone": "06725 300630",
+      "people": [
+        "Stefan Fischer",
+        "Thorsten Marx"
+      ]
+    },
+    {
+      "id": "mietgeraete-gensingen",
+      "label": "Vertrieb Mietgeräte Gensingen",
+      "email": "gensingen@schnell-gruppe.de",
+      "phone": "06725 300650",
+      "people": [
+        "Dirk Rump",
+        "Hakan Yasar"
+      ]
+    },
+    {
+      "id": "faktura",
+      "label": "Faktura",
+      "people": [
+        {
+          "name": "Verena Enk",
+          "phone": "06725 300668",
+          "email": "verena.enk@schnell-gruppe.de"
+        },
+        {
+          "name": "Adnan Haziri",
+          "phone": "06725 300665",
+          "email": "Adnan.haziri@schnell-gruppe.de"
+        },
+        {
+          "name": "Caroline Krolla",
+          "phone": "06725 300662",
+          "email": "caroline.krolla@schnell-gruppe.de"
+        }
+      ]
+    },
+    {
+      "id": "buchhaltung",
+      "label": "Buchhaltung und Inkasso",
+      "people": [
+        {
+          "name": "Barbara Hugo",
+          "phone": "06725 300626",
+          "email": "barbara.hugo@schnell-gruppe.de"
+        }
+      ]
+    }
+  ]
+}

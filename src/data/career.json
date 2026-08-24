@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "version": "0.9.0",
+    "status": "review",
+    "verifiedAt": "2026-08-24",
+    "source": "https://schnell-gruppe.de/stellenangebote/",
+    "applicationNote": "Vor einer Veröffentlichung produktiv erneut prüfen, da Stellenangebote zeitabhängig sind."
+  },
+  "intro": {
+    "headline": "Arbeiten, wo Projekte sichtbar werden.",
+    "lead": "Die Schnell Gruppe verbindet kurze Entscheidungswege mit vielseitigen Aufgaben in Bau, Logistik, Entsorgung, Recycling und Vermietung."
+  },
+  "jobs": [
+    {
+      "id": "teamleiter-disposition",
+      "slug": "teamleiter-disposition",
+      "title": "Teamleiter Disposition (m/w/d)",
+      "department": "Transport- und Baggerbetrieb",
+      "location": "Ockenheim",
+      "start": "Zum nächstmöglichen Zeitpunkt",
+      "summary": "Verantwortung für die administrative und operative Leitung der Fahrzeugdisposition.",
+      "tasks": [
+        "Administrative und operative Leitung der Abteilung Disposition",
+        "Fachliche Leitung der Disposition",
+        "Überwachung der Tourenplanung und Tourenoptimierung",
+        "Übernahme der Funktion des Verkehrsleiters",
+        "Entwicklung und Einführung einer digitalen Auftragsabwicklung",
+        "Qualifikation und Schulung der Kraftfahrer",
+        "Entwicklung und Einhaltung von Kennzahlen"
+      ],
+      "profile": [
+        "Abgeschlossene kaufmännische Ausbildung im Bereich Logistik und einschlägige Berufserfahrung",
+        "Fachkenntnisse und Führungserfahrung in der Abfall-, Recycling- oder Bauwirtschaft",
+        "Professionelles und durchsetzungsstarkes Auftreten",
+        "Strukturierte, eigenständige Arbeitsweise sowie Belastbarkeit und Flexibilität",
+        "Gute Kenntnisse in ERP-Programmen und Office-Anwendungen",
+        "Idealerweise Führerschein Klasse C/CE"
+      ],
+      "benefits": [
+        "Adäquate Vergütung mit Sozialleistungen",
+        "Moderne und freundliche Arbeitsplätze",
+        "Mittelständische Struktur mit kurzen Entscheidungswegen",
+        "Familiäre Arbeitsumgebung"
+      ],
+      "contact": { "name": "Daniel Klug", "email": "daniel.klug@schnell-gruppe.de" },
+      "source": "https://schnell-gruppe.de/stellenangebote/teamleiter-disposition/",
+      "status": "published"
+    },
+    {
+      "id": "bauleiter-kalkulator",
+      "slug": "bauleiter-kalkulator",
+      "legacySlug": "bauleiter-kalkulator-m-w-d",
+      "title": "Bauleiter/Kalkulator (m/w/d)",
+      "department": "Erd- und Tiefbaubetrieb",
+      "location": "Ockenheim",
+      "start": "Zum nächstmöglichen Zeitpunkt",
+      "summary": "Baustellenleitung, Kalkulation und Abrechnung von Erd- und Tiefbaumaßnahmen.",
+      "tasks": [
+        "Administrative und operative Leitung der Baustellen",
+        "Fachliche Leitung der Poliere und Bauhelfer",
+        "Kalkulation, Kontrolle und Abrechnung von Baumaßnahmen",
+        "Erstellung von Angeboten",
+        "Entwicklung und Einhaltung von Kennzahlen"
+      ],
+      "profile": [
+        "Hochschulstudium im Tief- oder Ingenieurbau oder vergleichbare Berufserfahrung",
+        "Fachkenntnisse und Führungserfahrung in der Bauwirtschaft",
+        "Professionelles und durchsetzungsstarkes Auftreten",
+        "Strukturierte, eigenständige Arbeitsweise sowie Belastbarkeit und Flexibilität",
+        "Gute Kenntnisse in ERP-Programmen und Office-Anwendungen",
+        "Führerschein Klasse B"
+      ],
+      "benefits": [
+        "Adäquate Vergütung mit Sozialleistungen",
+        "Firmenfahrzeug auch zur privaten Nutzung",
+        "Moderne und freundliche Arbeitsplätze",
+        "Mittelständische Struktur mit kurzen Entscheidungswegen",
+        "Familiäre Arbeitsumgebung"
+      ],
+      "contact": { "name": "Julian Schnell", "email": "julian.schnell@schnell-gruppe.de" },
+      "source": "https://schnell-gruppe.de/stellenangebote/bauleiter-kalkulator-m-w-d/",
+      "status": "published"
+    }
+  ]
+}

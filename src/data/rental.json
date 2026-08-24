@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "version": "0.8.0",
+    "status": "review",
+    "source": "https://schnell-gruppe.de/leistungen/baumaschinen-baugeraetevermietung/",
+    "pricingPublished": false,
+    "availabilityLive": false
+  },
+  "categories": [
+    { "id": "bagger-lader", "label": "Bagger & Lader" },
+    { "id": "verdichtung", "label": "Verdichtung" },
+    { "id": "baustelle-rohbau", "label": "Baustelle & Rohbau" },
+    { "id": "anhaenger-buehne", "label": "Anhänger & Bühne" },
+    { "id": "garten-renovierung", "label": "Garten & Renovierung" }
+  ],
+  "items": [
+    { "id": "minibagger-08-80", "name": "Minibagger 0,8–8,0 t", "categoryId": "bagger-lader", "locationIds": ["ockenheim"], "summary": "Kompakte bis leistungsstarke Minibagger für Aushub, Gräben und Außenanlagen." },
+    { "id": "minibagger-08-18", "name": "Minibagger 0,8–1,8 t", "categoryId": "bagger-lader", "locationIds": ["gensingen"], "summary": "Kompakte Maschinen für enge Zufahrten und kleinere Erdarbeiten." },
+    { "id": "mobilbagger-20", "name": "Mobilbagger bis 20 t", "categoryId": "bagger-lader", "locationIds": ["ockenheim"], "summary": "Mobile Baggertechnik für flexible Baustelleneinsätze." },
+    { "id": "abbruchbagger-35", "name": "Abbruchbagger bis 35 t", "categoryId": "bagger-lader", "locationIds": ["ockenheim"], "summary": "Leistungsstarke Bagger für Rückbau- und Abbruchaufgaben." },
+    { "id": "radlader-25-80", "name": "Radlader 2,5–8,0 t", "categoryId": "bagger-lader", "locationIds": ["ockenheim"], "summary": "Radlader in mehreren Größen für Materialumschlag und Erdarbeiten." },
+    { "id": "radlader-25", "name": "Radlader 2,5 t", "categoryId": "bagger-lader", "locationIds": ["gensingen"], "summary": "Kompakter Radlader für Hof, Garten und Baustelle." },
+    { "id": "kompaktlader", "name": "Kompaktlader", "categoryId": "bagger-lader", "locationIds": ["ockenheim"], "summary": "Wendig und vielseitig auf kleineren Flächen." },
+    { "id": "raddumper", "name": "Raddumper", "categoryId": "bagger-lader", "locationIds": ["ockenheim"], "summary": "Materialtransport auf unbefestigten Baustellenflächen." },
+    { "id": "anbaugeraete", "name": "Anbaugeräte für Bagger & Radlader", "categoryId": "bagger-lader", "locationIds": ["ockenheim"], "summary": "Passende Anbaugeräte für unterschiedliche Arbeiten." },
+    { "id": "ruettelstampfer", "name": "Rüttelstampfer", "categoryId": "verdichtung", "locationIds": ["ockenheim", "gensingen"], "summary": "Verdichtung in Gräben, Randbereichen und auf kleinen Flächen." },
+    { "id": "grabenwalzen", "name": "Grabenwalzen & Walzenzüge", "categoryId": "verdichtung", "locationIds": ["ockenheim"], "summary": "Verdichtungstechnik für Gräben und größere Flächen." },
+    { "id": "ruettelplatte-400-700", "name": "Rüttelplatten 400–700 kg", "categoryId": "verdichtung", "locationIds": ["ockenheim"], "summary": "Schwere Rüttelplatten für tragfähige Untergründe." },
+    { "id": "ruettelplatte-200-300", "name": "Rüttelplatten 200–300 kg", "categoryId": "verdichtung", "locationIds": ["gensingen"], "summary": "Mittlere Verdichtungstechnik für Wege und kleinere Bauflächen." },
+    { "id": "baukompressoren", "name": "Baukompressoren", "categoryId": "baustelle-rohbau", "locationIds": ["ockenheim"], "summary": "Druckluftversorgung für Werkzeuge und Baustelleneinsätze." },
+    { "id": "mauersteinsaegen", "name": "Mauerstein- & Steinsägen", "categoryId": "baustelle-rohbau", "locationIds": ["ockenheim", "gensingen"], "summary": "Präzise Schnitte für Mauerwerk, Fliesen und Stein." },
+    { "id": "mauersteinkraene", "name": "Mauersteinkräne mit Zubehör", "categoryId": "baustelle-rohbau", "locationIds": ["ockenheim"], "summary": "Hebetechnik für Mauersteine und Rohbauarbeiten." },
+    { "id": "fahrgeruest", "name": "Fahrgerüst bis 12 m", "categoryId": "baustelle-rohbau", "locationIds": ["ockenheim"], "summary": "Mobiler Höhenzugang für Fassaden- und Montagearbeiten." },
+    { "id": "baustellensicherung", "name": "Baustellensicherung & Schilder", "categoryId": "baustelle-rohbau", "locationIds": ["ockenheim"], "summary": "Absperrung, Beschilderung und Zubehör für sichere Baustellen." },
+    { "id": "raumcontainer", "name": "Raum- & Baustellencontainer", "categoryId": "baustelle-rohbau", "locationIds": ["ockenheim"], "summary": "Temporäre Raumlösungen für Baustellenorganisation." },
+    { "id": "bohr-abbruchhammer", "name": "Bohr- & Abbruchhämmer", "categoryId": "baustelle-rohbau", "locationIds": ["gensingen"], "summary": "Elektrowerkzeuge für Bohr-, Meißel- und Abbrucharbeiten." },
+    { "id": "erdbohrer", "name": "Erdbohrer", "categoryId": "baustelle-rohbau", "locationIds": ["gensingen"], "summary": "Bohrtechnik für Pfosten, Fundamente und Pflanzarbeiten." },
+    { "id": "lkw-kipper", "name": "Lkw 7,5 t mit Kippaufbau", "categoryId": "anhaenger-buehne", "locationIds": ["ockenheim"], "summary": "Transportfahrzeug mit Kippaufbau für Schüttgüter und Material." },
+    { "id": "kuehlanhaenger", "name": "Pkw-Kühlanhänger", "categoryId": "anhaenger-buehne", "locationIds": ["gensingen"], "summary": "Kühltransport für Veranstaltungen und zeitlich begrenzte Einsätze." },
+    { "id": "transportanhaenger", "name": "Pkw-Transportanhänger", "categoryId": "anhaenger-buehne", "locationIds": ["gensingen"], "summary": "Anhänger für Fahrzeuge, Geräte und allgemeine Transporte." },
+    { "id": "kippanhaenger", "name": "Pkw-Kippanhänger", "categoryId": "anhaenger-buehne", "locationIds": ["gensingen"], "summary": "Kippbarer Anhänger für Schütt- und Baumaterial." },
+    { "id": "tiertransportanhaenger", "name": "Pkw-Tiertransportanhänger", "categoryId": "anhaenger-buehne", "locationIds": ["gensingen"], "summary": "Anhänger für den vorgesehenen Tiertransport." },
+    { "id": "teleskoparbeitsbuehne", "name": "Teleskoparbeitsbühne als Pkw-Anhänger", "categoryId": "anhaenger-buehne", "locationIds": ["gensingen"], "summary": "Flexible Höhenarbeit mit transportabler Arbeitsbühne." },
+    { "id": "gartengeraete", "name": "Gartengeräte", "categoryId": "garten-renovierung", "locationIds": ["gensingen"], "summary": "Mietgeräte für Pflege, Gestaltung und Arbeiten im Garten." },
+    { "id": "bautrockner", "name": "Bautrockner", "categoryId": "garten-renovierung", "locationIds": ["gensingen"], "summary": "Technische Trocknung für Sanierung und Neubau." },
+    { "id": "schmutzwasserpumpen", "name": "Schmutzwasserpumpen", "categoryId": "garten-renovierung", "locationIds": ["gensingen"], "summary": "Pumptechnik für Baugruben, Keller und belastetes Wasser." },
+    { "id": "holzbearbeitung", "name": "Werkzeuge zur Holzbearbeitung", "categoryId": "garten-renovierung", "locationIds": ["gensingen"], "summary": "Werkzeuge für Zuschnitt, Bearbeitung und Montage von Holz." },
+    { "id": "trockenbauwerkzeug", "name": "Trockenbauwerkzeuge", "categoryId": "garten-renovierung", "locationIds": ["gensingen"], "summary": "Werkzeugausstattung für Ausbau- und Trockenbauarbeiten." }
+  ],
+  "contact": {
+    "phone": "06725 300630",
+    "phoneHref": "+496725300630",
+    "email": "vermietung@schnell-gruppe.de",
+    "note": "Preise und aktuelle Verfügbarkeit erhalten Sie auf Anfrage."
+  }
+}
