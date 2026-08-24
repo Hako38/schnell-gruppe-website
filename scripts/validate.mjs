@@ -165,7 +165,9 @@ for (const redirect of redirectsData.redirects) {
   const file = path.join(outputRoot, redirect.from.replace(/^\//, "").replace(/\/$/, ""), "index.html");
   try {
     const html = await readFile(file, "utf8");
-    if (!html.includes(`url=${redirect.to}`) || !html.includes(`location.replace("${redirect.to}")`)) errors.push(`Weiterleitung ${redirect.from}: Ziel fehlt`);
+    const hasMetaTarget = html.includes(`url=${redirect.to}`) || html.includes(`url=/schnell-gruppe-website${redirect.to}`);
+    const hasScriptTarget = html.includes(`location.replace("${redirect.to}")`) || html.includes(`location.replace("/schnell-gruppe-website${redirect.to}")`);
+    if (!hasMetaTarget || !hasScriptTarget) errors.push(`Weiterleitung ${redirect.from}: Ziel fehlt`);
   } catch {
     errors.push(`Weiterleitung ${redirect.from}: Seite fehlt`);
   }

@@ -5,6 +5,8 @@ import path from "node:path";
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const sourceRoot = path.join(projectRoot, "src");
 const outputRoot = path.join(projectRoot, "dist");
+const basePathInput = (process.env.BASE_PATH || "").trim();
+const basePath = basePathInput ? `/${basePathInput.replace(/^\/+|\/+$/g, "")}` : "";
 
 const [homeTemplate, servicesIndexTemplate, serviceDetailTemplate, rentalTemplate, locationsIndexTemplate, locationDetailTemplate, companyTemplate, sustainabilityTemplate, careerIndexTemplate, jobDetailTemplate, downloadsTemplate, contactTemplate, legalReviewTemplate, contactsTemplate, redirectTemplate, homeDataText, serviceDataText, rentalDataText, locationDataText, companyDataText, careerDataText, downloadsDataText, contactDataText, contactsDataText, redirectsDataText] = await Promise.all([
   readFile(path.join(sourceRoot, "templates", "index.html"), "utf8"),
@@ -59,7 +61,12 @@ function renderTemplate(template, replacements) {
   for (const [key, value] of Object.entries(replacements)) html = html.replaceAll(`{{${key}}}`, value);
   const unresolved = html.match(/{{[A-Z0-9_]+}}/g);
   if (unresolved) throw new Error(`Unaufgelöste Template-Platzhalter: ${unresolved.join(", ")}`);
-  return html;
+  if (!basePath) return html;
+  return html
+    .replaceAll('href="/', `href="${basePath}/`)
+    .replaceAll('src="/', `src="${basePath}/`)
+    .replaceAll('location.replace("/', `location.replace("${basePath}/`)
+    .replaceAll('content="0; url=/', `content="0; url=${basePath}/`);
 }
 
 function renderNavigation(items, mobile = false) {
@@ -481,7 +488,7 @@ const publicLocations = locationData.locations.filter((location) => location.sta
 const publicJobs = careerData.jobs.filter((job) => job.status === "published");
 const sitemapUrls = ["https://schnell-gruppe.de/", "https://schnell-gruppe.de/leistungen/", ...publicServices.map((service) => `https://schnell-gruppe.de/leistungen/${service.slug}/`), "https://schnell-gruppe.de/mietpark/", "https://schnell-gruppe.de/standorte/", ...publicLocations.map((location) => `https://schnell-gruppe.de/standorte/${location.slug}/`), "https://schnell-gruppe.de/unternehmen/", "https://schnell-gruppe.de/unternehmen/nachhaltigkeit-recycling/", "https://schnell-gruppe.de/karriere/", ...publicJobs.map((job) => `https://schnell-gruppe.de/karriere/${job.slug}/`), "https://schnell-gruppe.de/downloads/", "https://schnell-gruppe.de/kontakt/", "https://schnell-gruppe.de/ansprechpartner/"];
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapUrls.map((url) => `  <url><loc>${url}</loc></url>`).join("\n")}\n</urlset>\n`;
-writes.push(writeFile(path.join(outputRoot, "sitemap.xml"), sitemap, "utf8"), writeFile(path.join(outputRoot, "robots.txt"), "User-agent: *\nAllow: /\nSitemap: https://schnell-gruppe.de/sitemap.xml\n", "utf8"), writeFile(path.join(outputRoot, "_redirects"), redirectsData.redirects.map((redirect) => `${redirect.from} ${redirect.to} ${redirect.status}`).join("\n") + "\n", "utf8"));
+writes.push(writeFile(path.join(outputRoot, "sitemap.xml"), sitemap, "utf8"), writeFile(path.join(outputRoot, "robots.txt"), "User-agent: *\nAllow: /\nSitemap: https://schnell-gruppe.de/sitemap.xml\n", "utf8"), writeFile(path.join(outputRoot, "_redirects"), redirectsData.redirects.map((redirect) => `${redirect.from} ${redirect.to} ${redirect.status}`).join("\n") + "\n", "utf8"), writeFile(path.join(outputRoot, ".nojekyll"), "", "utf8"));
 
 await Promise.all(writes);
 console.log(`Website erstellt: 37 Seiten inklusive Ansprechpartner, ${downloadsData.documents.length} lokaler Downloads und ${redirectsData.redirects.length} Alt-URL-Weiterleitungen.`);
