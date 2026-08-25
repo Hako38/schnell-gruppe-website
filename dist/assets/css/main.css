@@ -2860,7 +2860,8 @@ h1, h2, h3 { text-wrap: balance; }
   position: static;
   z-index: auto;
   align-self: auto;
-  width: 100%;
+  width: min(100% - (var(--sg-gutter) * 2), var(--sg-content));
+  margin-inline: auto;
   padding-top: clamp(2.75rem, 5vw, 5rem);
   padding-bottom: clamp(2.75rem, 5vw, 5rem);
   background: var(--sg-ink);
