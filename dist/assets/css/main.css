@@ -2809,3 +2809,23 @@ h3 { font-size: clamp(1.25rem, 1.7vw, 1.75rem); }
   .job-card h3,
   .download-group h3 { font-size: clamp(1.3rem, 5.5vw, 2.1rem); }
 }
+
+/* Ruhigerer Satz für mehrzeilige Überschriften */
+h1, h2, h3 { text-wrap: balance; }
+
+.hero h1,
+.page-hero__inner h1,
+.detail-hero h1,
+.rental-hero h1,
+.location-detail-hero h1,
+.recycling-hero h1,
+.job-hero h1,
+.downloads-hero h1,
+.contact-hero h1,
+.legal-review h1,
+.legal-content h1,
+.contacts-hero h1 {
+  max-width: 13ch;
+  letter-spacing: -0.025em;
+  line-height: 0.95;
+}
