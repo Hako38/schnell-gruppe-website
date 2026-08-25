@@ -7,6 +7,7 @@ const sourceRoot = path.join(projectRoot, "src");
 const outputRoot = path.join(projectRoot, "dist");
 const basePathInput = (process.env.BASE_PATH || "").trim();
 const basePath = basePathInput ? `/${basePathInput.replace(/^\/+|\/+$/g, "")}` : "";
+const assetVersion = (process.env.GITHUB_SHA || "local").slice(0, 12);
 
 const [homeTemplate, servicesIndexTemplate, serviceDetailTemplate, rentalTemplate, locationsIndexTemplate, locationDetailTemplate, companyTemplate, sustainabilityTemplate, careerIndexTemplate, jobDetailTemplate, downloadsTemplate, contactTemplate, legalReviewTemplate, legalContentTemplate, contactsTemplate, redirectTemplate, homeDataText, serviceDataText, rentalDataText, locationDataText, companyDataText, careerDataText, downloadsDataText, contactDataText, contactsDataText, legalContentDataText, redirectsDataText] = await Promise.all([
   readFile(path.join(sourceRoot, "templates", "index.html"), "utf8"),
@@ -64,6 +65,10 @@ function renderTemplate(template, replacements) {
   for (const [key, value] of Object.entries(replacements)) html = html.replaceAll(`{{${key}}}`, value);
   const unresolved = html.match(/{{[A-Z0-9_]+}}/g);
   if (unresolved) throw new Error(`Unaufgelöste Template-Platzhalter: ${unresolved.join(", ")}`);
+  html = html
+    .replaceAll("assets/css/tokens.css", `assets/css/tokens.css?v=${assetVersion}`)
+    .replaceAll("assets/css/main.css", `assets/css/main.css?v=${assetVersion}`)
+    .replaceAll("assets/js/main.js", `assets/js/main.js?v=${assetVersion}`);
   if (!basePath) return html;
   return html
     .replaceAll('href="/', `href="${basePath}/`)

@@ -45,7 +45,7 @@ for (const htmlFile of htmlFiles) {
   const assetPaths = [...html.matchAll(/(?:src|href)="((?:\.\.\/)*assets\/[^"]+)"/g)].map((match) => match[1]);
   for (const assetPath of new Set(assetPaths)) {
     try {
-      await access(path.resolve(path.dirname(htmlFile), assetPath));
+      await access(path.resolve(path.dirname(htmlFile), assetPath.split("?")[0]));
     } catch {
       errors.push(`${relativeName}: fehlende lokale Datei ${assetPath}`);
     }
