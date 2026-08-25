@@ -2836,3 +2836,35 @@ h1, h2, h3 { text-wrap: balance; }
   letter-spacing: -0.025em;
   line-height: 0.95;
 }
+
+/* Standortseite: Inhalte bleiben immer außerhalb des Bildes */
+.locations-hero {
+  display: grid;
+  min-height: 0;
+  overflow: visible;
+}
+
+.locations-hero .page-hero__image {
+  position: static;
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 8;
+  object-fit: cover;
+  object-position: center;
+}
+
+.locations-hero .page-hero__overlay { display: none; }
+
+.locations-hero .page-hero__inner {
+  position: static;
+  z-index: auto;
+  align-self: auto;
+  width: 100%;
+  padding-top: clamp(3rem, 6vw, 6rem);
+  padding-bottom: clamp(3rem, 6vw, 6rem);
+  background: var(--sg-ink);
+}
+
+.locations-hero .breadcrumb { margin-bottom: clamp(1.5rem, 3vw, 2.5rem); }
+.locations-hero .page-hero__inner > p:last-child { color: #d1d2d3; }
