@@ -2540,6 +2540,16 @@ h3 {
   letter-spacing: 0.07em;
 }
 
+.legal-content { background: var(--sg-paper); }
+.legal-content__inner { max-width: 58rem; padding-top: clamp(10rem, 16vw, 15rem); padding-bottom: clamp(5rem, 9vw, 9rem); }
+.legal-content .breadcrumb { margin-bottom: 2.5rem; }
+.legal-content h1 { max-width: 12ch; font-size: clamp(4.5rem, 9vw, 9rem); line-height: 0.83; }
+.legal-content__body { margin-top: clamp(3rem, 6vw, 5rem); color: var(--sg-concrete-600); font-size: 1rem; line-height: 1.75; }
+.legal-content__body h2 { margin-top: 3rem; color: var(--sg-ink); font-size: clamp(1.65rem, 3vw, 2.65rem); line-height: 1; }
+.legal-content__body p + p { margin-top: 1rem; }
+.legal-content__body ul { display: grid; gap: 0.55rem; margin: 1.25rem 0; padding-left: 1.2rem; }
+.legal-content__body a { color: var(--sg-ink); font-weight: 700; text-decoration: underline; text-underline-offset: 0.15em; }
+
 .download-catalog .section-heading > p { max-width: 40rem; color: var(--sg-concrete-600); line-height: 1.7; }
 .download-filters { display: grid; grid-template-columns: minmax(0, 1fr) minmax(14rem, 0.35fr); gap: 1rem; margin-top: 3rem; }
 .download-filters label, .form-field { display: grid; gap: 0.5rem; }

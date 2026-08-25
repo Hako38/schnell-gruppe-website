@@ -8,7 +8,7 @@ const outputRoot = path.join(projectRoot, "dist");
 const basePathInput = (process.env.BASE_PATH || "").trim();
 const basePath = basePathInput ? `/${basePathInput.replace(/^\/+|\/+$/g, "")}` : "";
 
-const [homeTemplate, servicesIndexTemplate, serviceDetailTemplate, rentalTemplate, locationsIndexTemplate, locationDetailTemplate, companyTemplate, sustainabilityTemplate, careerIndexTemplate, jobDetailTemplate, downloadsTemplate, contactTemplate, legalReviewTemplate, contactsTemplate, redirectTemplate, homeDataText, serviceDataText, rentalDataText, locationDataText, companyDataText, careerDataText, downloadsDataText, contactDataText, contactsDataText, redirectsDataText] = await Promise.all([
+const [homeTemplate, servicesIndexTemplate, serviceDetailTemplate, rentalTemplate, locationsIndexTemplate, locationDetailTemplate, companyTemplate, sustainabilityTemplate, careerIndexTemplate, jobDetailTemplate, downloadsTemplate, contactTemplate, legalReviewTemplate, legalContentTemplate, contactsTemplate, redirectTemplate, homeDataText, serviceDataText, rentalDataText, locationDataText, companyDataText, careerDataText, downloadsDataText, contactDataText, contactsDataText, legalContentDataText, redirectsDataText] = await Promise.all([
   readFile(path.join(sourceRoot, "templates", "index.html"), "utf8"),
   readFile(path.join(sourceRoot, "templates", "services-index.html"), "utf8"),
   readFile(path.join(sourceRoot, "templates", "service-detail.html"), "utf8"),
@@ -22,6 +22,7 @@ const [homeTemplate, servicesIndexTemplate, serviceDetailTemplate, rentalTemplat
   readFile(path.join(sourceRoot, "templates", "downloads.html"), "utf8"),
   readFile(path.join(sourceRoot, "templates", "contact.html"), "utf8"),
   readFile(path.join(sourceRoot, "templates", "legal-review.html"), "utf8"),
+  readFile(path.join(sourceRoot, "templates", "legal-content.html"), "utf8"),
   readFile(path.join(sourceRoot, "templates", "contacts.html"), "utf8"),
   readFile(path.join(sourceRoot, "templates", "redirect.html"), "utf8"),
   readFile(path.join(sourceRoot, "data", "homepage.json"), "utf8"),
@@ -33,6 +34,7 @@ const [homeTemplate, servicesIndexTemplate, serviceDetailTemplate, rentalTemplat
   readFile(path.join(sourceRoot, "data", "downloads.json"), "utf8"),
   readFile(path.join(sourceRoot, "data", "contact.json"), "utf8"),
   readFile(path.join(sourceRoot, "data", "contacts.json"), "utf8"),
+  readFile(path.join(sourceRoot, "data", "legal-content.json"), "utf8"),
   readFile(path.join(sourceRoot, "data", "redirects.json"), "utf8")
 ]);
 
@@ -45,6 +47,7 @@ const careerData = JSON.parse(careerDataText);
 const downloadsData = JSON.parse(downloadsDataText);
 const contactData = JSON.parse(contactDataText);
 const contactsData = JSON.parse(contactsDataText);
+const legalContentData = JSON.parse(legalContentDataText);
 const redirectsData = JSON.parse(redirectsDataText);
 
 function escapeHtml(value = "") {
@@ -409,11 +412,13 @@ for (const redirect of redirectsData.redirects) {
 }
 
 for (const legal of contactData.legal) {
-  const legalHtml = renderTemplate(legalReviewTemplate, {
+  const publishedContent = legalContentData.pages[legal.slug];
+  const legalHtml = renderTemplate(publishedContent ? legalContentTemplate : legalReviewTemplate, {
     ...commonReplacements("../"),
     LEGAL_TITLE: escapeHtml(legal.title),
     LEGAL_SLUG: escapeHtml(legal.slug),
     LEGAL_SOURCE: escapeHtml(legal.source),
+    LEGAL_CONTENT: publishedContent || "",
     FOOTER: renderFooter("../")
   });
   writes.push(writeFile(path.join(outputRoot, legal.slug, "index.html"), legalHtml, "utf8"));

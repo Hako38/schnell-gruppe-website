@@ -12,6 +12,7 @@ const careerData = JSON.parse(await readFile(path.join(projectRoot, "src", "data
 const downloadsData = JSON.parse(await readFile(path.join(projectRoot, "src", "data", "downloads.json"), "utf8"));
 const contactData = JSON.parse(await readFile(path.join(projectRoot, "src", "data", "contact.json"), "utf8"));
 const contactsData = JSON.parse(await readFile(path.join(projectRoot, "src", "data", "contacts.json"), "utf8"));
+const legalContentData = JSON.parse(await readFile(path.join(projectRoot, "src", "data", "legal-content.json"), "utf8"));
 const redirectsData = JSON.parse(await readFile(path.join(projectRoot, "src", "data", "redirects.json"), "utf8"));
 const errors = [];
 
@@ -147,8 +148,14 @@ try {
 for (const legal of contactData.legal) {
   try {
     const html = await readFile(path.join(outputRoot, legal.slug, "index.html"), "utf8");
-    if (!html.includes('name="robots" content="noindex,nofollow"')) errors.push(`${legal.slug}: Noindex-Schutz fehlt`);
-    if (!html.includes(legal.source)) errors.push(`${legal.slug}: Bestandsquelle fehlt`);
+    const publishedContent = legalContentData.pages[legal.slug];
+    if (publishedContent) {
+      if (html.includes('name="robots" content="noindex,nofollow"')) errors.push(`${legal.slug}: darf nicht auf noindex stehen`);
+      if (!html.includes(publishedContent.slice(0, 80))) errors.push(`${legal.slug}: übernommener Rechtstext fehlt`);
+    } else {
+      if (!html.includes('name="robots" content="noindex,nofollow"')) errors.push(`${legal.slug}: Noindex-Schutz fehlt`);
+      if (!html.includes(legal.source)) errors.push(`${legal.slug}: Bestandsquelle fehlt`);
+    }
   } catch {
     errors.push(`${legal.slug}: rechtliche Prüfseite fehlt`);
   }
