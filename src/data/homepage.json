@@ -20,6 +20,7 @@
     { "label": "Standorte", "href": "#standorte" },
     { "label": "Unternehmen", "href": "#unternehmen" },
     { "label": "Karriere", "href": "/stellenangebote/" },
+    { "label": "Ansprechpartner", "href": "/ansprechpartner/" },
     { "label": "Downloads", "href": "/downloads/" },
     { "label": "Kontakt", "href": "/kontakt/" }
   ],

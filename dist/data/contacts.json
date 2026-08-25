@@ -34,6 +34,13 @@
       ]
     },
     {
+      "id": "betriebsleitung",
+      "label": "Betriebsleitung",
+      "people": [
+        "NN"
+      ]
+    },
+    {
       "id": "erdbau-abbruch",
       "label": "Vertrieb Erdbau und Abbruch",
       "email": "vertrieb@schnell-gruppe.de",
