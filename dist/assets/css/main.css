@@ -2702,3 +2702,110 @@ h2 { font-size: clamp(2.4rem, 4.4vw, 4.7rem); }
   .job-card h3 { font-size: clamp(2.2rem, 10vw, 3.4rem); }
   .download-group h3 { font-size: clamp(2rem, 9vw, 3rem); }
 }
+
+/* Titelmaßstab: rund 30 % kompakter auf allen Seiten */
+h1 { font-size: clamp(2.4rem, 4.6vw, 4.9rem); }
+h2 { font-size: clamp(1.7rem, 3.1vw, 3.3rem); }
+h3 { font-size: clamp(1.25rem, 1.7vw, 1.75rem); }
+
+.hero h1,
+.page-hero__inner h1,
+.detail-hero h1,
+.rental-hero h1,
+.location-detail-hero h1,
+.recycling-hero h1,
+.job-hero h1,
+.downloads-hero h1,
+.contact-hero h1,
+.legal-review h1,
+.legal-content h1,
+.contacts-hero h1 {
+  font-size: clamp(2.6rem, 4.3vw, 4.6rem);
+}
+
+.section-heading h2,
+.service-index-group__heading h2,
+.service-copy h2,
+.service-feature-block h2,
+.contact-panel h2,
+.rental-contact-strip h2,
+.location-index-card h2,
+.company-story__grid h2,
+.recycling-products h2,
+.recycling-sites h2,
+.career-initiative h2,
+.company-paths h2,
+.job-section h2,
+.job-apply h2,
+.contact-form-layout h2,
+.contact-locations h2,
+.legal-content__body h2 {
+  font-size: clamp(1.7rem, 2.8vw, 3.1rem);
+}
+
+.service-card h3,
+.service-group h3,
+.location-card h3,
+.service-index-card h3,
+.rental-item h3,
+.hours-card h3,
+.company-principles__grid h3,
+.recycling-process__grid h3,
+.recycling-product-list h3,
+.contact-department h3,
+.job-card h3,
+.download-group h3 {
+  font-size: clamp(1.4rem, 2.5vw, 3.2rem);
+}
+
+@media (max-width: 44rem) {
+  h1 { font-size: clamp(2.1rem, 9.5vw, 3.15rem); }
+  h2 { font-size: clamp(1.5rem, 6.3vw, 2.3rem); }
+  h3 { font-size: clamp(1.2rem, 5vw, 1.65rem); }
+
+  .hero h1,
+  .page-hero__inner h1,
+  .detail-hero h1,
+  .rental-hero h1,
+  .location-detail-hero h1,
+  .recycling-hero h1,
+  .job-hero h1,
+  .downloads-hero h1,
+  .contact-hero h1,
+  .legal-review h1,
+  .legal-content h1,
+  .contacts-hero h1 {
+    font-size: clamp(2.2rem, 9.8vw, 3.3rem);
+  }
+
+  .section-heading h2,
+  .service-index-group__heading h2,
+  .service-copy h2,
+  .service-feature-block h2,
+  .contact-panel h2,
+  .rental-contact-strip h2,
+  .location-index-card h2,
+  .company-story__grid h2,
+  .recycling-products h2,
+  .recycling-sites h2,
+  .career-initiative h2,
+  .company-paths h2,
+  .job-section h2,
+  .job-apply h2,
+  .contact-form-layout h2,
+  .contact-locations h2,
+  .legal-content__body h2 { font-size: clamp(1.5rem, 6.3vw, 2.3rem); }
+
+  .service-card h3,
+  .service-group h3,
+  .location-card h3,
+  .service-index-card h3,
+  .rental-item h3,
+  .hours-card h3,
+  .company-principles__grid h3,
+  .recycling-process__grid h3,
+  .recycling-product-list h3,
+  .contact-department h3,
+  .job-card h3,
+  .download-group h3 { font-size: clamp(1.3rem, 5.5vw, 2.1rem); }
+}
