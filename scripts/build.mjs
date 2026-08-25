@@ -198,7 +198,7 @@ function renderRentalItems() {
 function renderLocationIndexCards() {
   return locationData.locations.map((location, index) => `
           <article class="location-index-card" data-reveal>
-            <img src="../${escapeHtml(location.image)}" width="1800" height="1125" loading="lazy" alt="${escapeHtml(location.imageAlt)}">
+            <div class="location-index-card__media"><img class="location-index-card__image" src="../${escapeHtml(location.image)}" width="1800" height="1125" loading="lazy" alt="${escapeHtml(location.imageAlt)}"></div>
             <div class="location-index-card__copy"><div class="location-index-card__meta"><span>${String(index + 1).padStart(2, "0")}</span><span>${escapeHtml(location.type)}</span></div><h3>${escapeHtml(location.name)}</h3><address>${escapeHtml(location.address)}</address><p>${escapeHtml(location.summary)}</p><a class="card-link" href="/standorte/${escapeHtml(location.slug)}/">Standort ansehen <span aria-hidden="true">→</span></a></div>
           </article>`).join("");
 }

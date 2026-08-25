@@ -1518,63 +1518,70 @@ h3 {
 }
 
 .location-index-card {
-  position: relative;
-  min-height: 32rem;
+  display: grid;
   overflow: hidden;
-  background: var(--sg-ink);
-  color: var(--sg-white);
+  border: 1px solid var(--sg-concrete-200);
+  background: var(--sg-white);
+  color: var(--sg-ink);
 }
 
-.location-index-card__image,
-.location-index-card__shade {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
+.location-index-card__media {
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: var(--sg-concrete-200);
 }
 
 .location-index-card__image {
+  display: block;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   transition: transform var(--sg-slow) var(--sg-ease);
 }
 
-.location-index-card__shade {
-  background: linear-gradient(0deg, rgba(12, 13, 14, 0.97), rgba(12, 13, 14, 0.05) 78%);
-}
-
 .location-index-card__copy {
-  position: absolute;
-  z-index: 1;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: clamp(1.5rem, 3.5vw, 3rem);
+  display: grid;
+  align-content: start;
+  gap: 0.85rem;
+  padding: clamp(1.4rem, 2.5vw, 2.25rem);
 }
 
-.location-index-card__type {
-  display: block;
-  margin-bottom: 0.8rem;
-  color: var(--sg-yellow);
+.location-index-card__meta {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  color: var(--sg-container);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
-.location-index-card h2 {
-  margin-bottom: 0.8rem;
-  font-size: clamp(3rem, 5.5vw, 5.5rem);
+.location-index-card__meta span:first-child {
+  color: var(--sg-concrete-500);
+}
+
+.location-index-card h3 {
+  margin: 0;
+  font-size: clamp(2rem, 3.2vw, 3.5rem);
+  line-height: 0.9;
+}
+
+.location-index-card address {
+  color: var(--sg-concrete-600);
+  font-size: 0.85rem;
+  font-style: normal;
 }
 
 .location-index-card p {
-  max-width: 34rem;
-  margin-bottom: 1.4rem;
-  color: #c9cacc;
+  margin: 0.25rem 0 0.4rem;
+  color: var(--sg-concrete-600);
   font-size: 0.85rem;
+  line-height: 1.65;
 }
 
 .location-index-card a {
-  color: var(--sg-white);
+  color: var(--sg-ink);
 }
 
 .location-index-card:hover .location-index-card__image {
@@ -2283,7 +2290,7 @@ h3 {
   }
 
   .location-index-card {
-    min-height: 29rem;
+    min-height: 0;
   }
 
   .location-network li {
