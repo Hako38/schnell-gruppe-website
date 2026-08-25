@@ -2825,7 +2825,7 @@ h1, h2, h3 { text-wrap: balance; }
 .legal-review h1,
 .legal-content h1,
 .contacts-hero h1 {
-  max-width: 13ch;
+  max-width: 16ch;
   letter-spacing: -0.025em;
   line-height: 0.95;
 }
