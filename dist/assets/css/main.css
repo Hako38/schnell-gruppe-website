@@ -2861,10 +2861,12 @@ h1, h2, h3 { text-wrap: balance; }
   z-index: auto;
   align-self: auto;
   width: 100%;
-  padding-top: clamp(3rem, 6vw, 6rem);
-  padding-bottom: clamp(3rem, 6vw, 6rem);
+  padding-top: clamp(2.75rem, 5vw, 5rem);
+  padding-bottom: clamp(2.75rem, 5vw, 5rem);
   background: var(--sg-ink);
 }
 
 .locations-hero .breadcrumb { margin-bottom: clamp(1.5rem, 3vw, 2.5rem); }
+.locations-hero .page-hero__inner h1 { margin-bottom: 0; }
+.locations-hero .page-hero__inner h1 + p { margin-top: clamp(1.5rem, 2.5vw, 2.25rem); }
 .locations-hero .page-hero__inner > p:last-child { color: #d1d2d3; }
