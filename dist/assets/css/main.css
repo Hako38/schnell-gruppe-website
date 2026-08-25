@@ -771,7 +771,7 @@ h3 {
 }
 
 .site-footer__brand img {
-  width: min(100%, 14.4rem);
+  width: clamp(8rem, 12vw, 11.5rem);
   margin-bottom: 1.5rem;
 }
 
@@ -2560,6 +2560,10 @@ h3 {
 .site-footer__credit { color: var(--sg-concrete-400); font-size: 0.78rem; }
 .site-footer__credit a { color: #c8963a; font-weight: 700; text-decoration: none; }
 .site-footer__credit a:hover, .site-footer__credit a:focus-visible { color: var(--sg-white); text-decoration: underline; text-underline-offset: 0.15em; }
+
+@media (max-width: 44rem) {
+  .site-footer__brand img { width: 9rem; }
+}
 
 .download-catalog .section-heading > p { max-width: 40rem; color: var(--sg-concrete-600); line-height: 1.7; }
 .download-filters { display: grid; grid-template-columns: minmax(0, 1fr) minmax(14rem, 0.35fr); gap: 1rem; margin-top: 3rem; }
